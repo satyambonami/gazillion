@@ -3,7 +3,9 @@
     padding-left: 100px;
     z-index: 99;
 }
-
+.mob-bannertext-image{
+    z-index: 999;
+}
 .mainNavSection {
     height: 100%;
 }
