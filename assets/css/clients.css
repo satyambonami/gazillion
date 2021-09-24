@@ -1,0 +1,136 @@
+.clients-bannertext h1{
+    /* font-size: 5rem; */
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    line-height: 82px ;
+}
+
+.slider3 .item img{
+    width: 300px !important;
+    height: auto;
+}
+
+.image-background-client{
+    background: #0369e2;
+    margin: 0 10px;
+}
+/* Clients Page  Css */
+.clientsSection {
+    background-image: url('../media/blackBg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bannerText h1 {
+    font-size: 5rem;
+}
+
+.slider {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.slider h1 {
+    font-size: 2.5rem;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+
+.mobile-btn-img {
+    display: none;
+}
+
+
+
+
+@media (max-width: 567px) {
+
+    .mainNavSection .bannerText {
+        padding-left: 0px;
+    }
+
+    .bannerText h1 {
+        font-size: 2.188rem;
+        padding: 10px 0px 0px 10px !important;
+    }
+
+    .padding-mobile {
+        padding-top: 0px !important;
+    }
+
+    .sectionPadding {
+        padding: 40px 0px;
+    }
+
+    .mobile-width {
+        width: 100% !important;
+        padding: 10px;
+    }
+
+    .mobile-btn {
+        display: none;
+    }
+
+    .mobile-btn-img {
+        display: block;
+    }
+
+    .mainBtn {
+        padding: 15px 15px;
+    }
+
+    .slider h1 {
+        font-size: 1.7rem;
+    }
+
+    .mainBtn {
+        font-size: 1rem;
+        padding: 10px 12px;
+    }
+
+    .mainBtn:hover {
+        color: #fff;
+    }
+
+    .mainBtn::after {
+        margin-left: 0px;
+    }
+
+    .sidepadding {
+        padding: 0 0px;
+    }
+
+    .margin-minus-2 {
+        margin-top: -35rem !important;
+    }
+}
+
+.clientvi {
+    width: 600px;
+    height: 400px;
+}
+.clientvi video{
+    object-fit: fill !important;
+    width: 600px;
+    height: 400px;
+}
+
+/* @media (max-width: 1024px) {
+    .mainNavSection .bannerText {
+        padding-left: 0px;
+    }
+} */
+
+@media (max-width: 556px) {
+    .clientvi {
+        width: 300px;
+        height: 150px;
+    }
+}

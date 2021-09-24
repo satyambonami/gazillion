@@ -1,0 +1,40 @@
+/* Footer Css */
+
+footer {
+    background-image: url('../media/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0px 0px 0px;
+    border-top: 2px solid #000;
+}
+
+.footerSection {
+    padding-bottom: 80px;
+}
+.footerSection h4{
+    font-size: 31px; line-height: 40px;
+}
+.copyrightSection {
+    padding: 0px 80px 80px 20px;
+}
+
+
+.copyrightSection a {
+    font-weight: 500 !important;
+}
+.footer a{
+    font-size:19px; letter-spacing: 1.5px
+}
+.footer span{
+    font-size:11px; letter-spacing: 1.5px;
+}
+
+@media(max-width:576px) {
+    footer {
+        background: url(../media/Group\ 306.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

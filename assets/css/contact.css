@@ -1,0 +1,96 @@
+.mainNavSection .bannerText {
+    padding-left: 120px;
+}
+
+.mainNavSection {
+    height: 100%;
+}
+
+.bannerText h1 {
+    font-size: 5.563rem ;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    line-height: 82px;
+}
+
+.bannerText h3 {
+    font-size: 2.5rem;
+    line-height: 38px;
+}
+
+.f12 {
+    font-size:0.75rem;
+}
+
+.f15 {
+    font-size: 0.938rem;
+}
+
+
+.texta {
+    height: 300px;
+}
+
+.slider {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.slider h1 {
+    font-size: 2.5rem;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+
+
+input[type='file'] {
+    opacity: 0 !important;
+}
+
+.form-control::placeholder {
+    font-weight: 600;
+    color: #000;
+}
+.map iframe{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+	  -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+	  -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+    width: 100%;
+    height: 250px;
+}
+.contact-form .text{
+    font-family: "Hanson-bold", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+input , textarea , .para-font , .contact-form .btn-contact{
+    font-family: "Montserrat" !important;
+    font-weight: bold !important;
+    font-size: 16px;
+}
+
+
+
+
+/* and (min-width: 1700px) */
+@media only screen and (min-width: 1500px) and (max-width: 1700px){
+    .mb-n2{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 1500px){
+    .mb-n2{
+        margin-bottom: 2rem;
+    }
+    .contacthomeimage{
+        height: 100%;
+    }
+}

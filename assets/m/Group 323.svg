@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.027" height="127.859" viewBox="0 0 15.027 127.859">
+  <g id="Group_323" data-name="Group 323" transform="translate(-106.545 -608.141)">
+    <path id="Icon_awesome-behance-square" data-name="Icon awesome-behance-square" d="M6.256,11c0,.647-.47.852-1.046.852H3.7V10.082H5.239C5.863,10.085,6.256,10.344,6.256,11ZM6,8.244c0-.594-.46-.735-.969-.735H3.7v1.5H5.132C5.638,9.012,6,8.791,6,8.244Zm4.438.778a1,1,0,0,0-1.063,1h2.086A.956.956,0,0,0,10.435,9.022ZM15.027,3.86V15.667a1.61,1.61,0,0,1-1.61,1.61H1.61A1.61,1.61,0,0,1,0,15.667V3.86A1.61,1.61,0,0,1,1.61,2.25H13.417A1.61,1.61,0,0,1,15.027,3.86ZM9.113,7.382h2.61V6.748H9.113Zm-1.442,3.7A1.668,1.668,0,0,0,6.5,9.351,1.252,1.252,0,0,0,7.376,8.11c0-1.281-.956-1.593-2.059-1.593H2.281v6.44H5.4C6.574,12.95,7.671,12.39,7.671,11.081Zm5.075-.5a2.293,2.293,0,0,0-2.267-2.529,2.341,2.341,0,0,0-2.385,2.469,2.272,2.272,0,0,0,2.385,2.449,2.08,2.08,0,0,0,2.184-1.57h-1.13a1.061,1.061,0,0,1-1.013.607,1.052,1.052,0,0,1-1.144-1.184h3.361C12.739,10.749,12.746,10.666,12.746,10.585Z" transform="translate(106.545 605.891)"/>
+    <text id="Gazillionx" transform="translate(115.971 662) rotate(-90)" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.449em"><tspan x="-73.353" y="0">GAZILLIONX</tspan></text>
+    <g id="Group_47" data-name="Group 47" transform="translate(4.53 -29.962)">
+      <path id="Path_6870" data-name="Path 6870" d="M2226,652.016v21.214" transform="translate(-2116.953 3.905)" fill="none" stroke="#000" stroke-width="1"/>
+      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(106.941 675.962)" fill="#fff" stroke="#000" stroke-width="1">
+        <circle cx="2" cy="2" r="2" stroke="none"/>
+        <circle cx="2" cy="2" r="1.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

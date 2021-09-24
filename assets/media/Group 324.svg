@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.027" height="127.859" viewBox="0 0 15.027 127.859">
+  <g id="Group_324" data-name="Group 324" transform="translate(-132.385 -608.141)">
+    <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M13.953,2.25H1.07A1.078,1.078,0,0,0,0,3.333v12.86a1.078,1.078,0,0,0,1.07,1.083H13.953a1.081,1.081,0,0,0,1.073-1.083V3.333A1.081,1.081,0,0,0,13.953,2.25ZM4.542,15.13H2.314V7.959H4.545V15.13ZM3.428,6.979A1.291,1.291,0,1,1,4.719,5.688,1.292,1.292,0,0,1,3.428,6.979ZM12.89,15.13H10.663V11.642c0-.832-.017-1.9-1.157-1.9-1.161,0-1.338.906-1.338,1.841V15.13H5.94V7.959H8.077v.979h.03a2.346,2.346,0,0,1,2.11-1.157c2.254,0,2.673,1.486,2.673,3.418Z" transform="translate(132.385 605.891)"/>
+    <text id="Gazillionx" transform="translate(141.97 662) rotate(-90)" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.449em"><tspan x="-73.353" y="0">GAZILLIONX</tspan></text>
+    <g id="Group_48" data-name="Group 48" transform="translate(30.53 -29.962)">
+      <path id="Path_6870" data-name="Path 6870" d="M2226,652.016v21.214" transform="translate(-2116.953 3.905)" fill="none" stroke="#000" stroke-width="1"/>
+      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(106.941 675.962)" fill="#fff" stroke="#000" stroke-width="1">
+        <circle cx="2" cy="2" r="2" stroke="none"/>
+        <circle cx="2" cy="2" r="1.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

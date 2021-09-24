@@ -1,0 +1,3233 @@
+@media only screen and (min-width: 1660px) and (max-width: 1800px) {
+    .image-astroimg {
+        width: 100%;
+    }
+
+    .imgc {
+        z-index: 99;
+        position: absolute;
+        top: 46px;
+        left: -20px;
+    }
+
+    .lhead {
+        margin-left: 0px;
+    }
+
+    .lpara,
+    .lpara2 {
+        left: 0px;
+    }
+
+    .breiefing-image {
+        width: 80% !important;
+    }
+
+    .briefingimgc p,
+    .briefingimgc h5 {
+        margin-left: 1rem;
+        width: 80% !important;
+    }
+
+    .second-row-image-section .card4 {
+        margin-left: 0px !important;
+    }
+
+    .research-image,
+    .conduct-image {
+        max-width: 450px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .card4 .imgc {
+        top: 73px;
+        left: 9px;
+    }
+
+    .conduct-para {
+        width: 80% !important;
+    }
+
+    .avoid {
+        font-size: 30px !important;
+        line-height: 27px !important;
+        margin-left: 62%;
+        margin-top: 1rem;
+    }
+  
+    .card3 .imgc h3,
+    .card3 .imgc p {
+        margin-left: 0px !important;
+    }
+
+    .md-research {
+        margin-top: 20px;
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+
+    .card3 {
+        margin-left: 8rem !important;
+    }
+
+    .online-section .img img {
+        
+        width: 95% !important;
+        height: 400px !important;
+    }
+
+    .online-section .img img {
+
+        width: 95% !important;
+        height: 400px !important;
+    }
+
+    .card-content li {
+        font-size: 20px !important;
+    }
+    .card-content ol{
+        margin-top: 20px !important;
+    }
+
+    .service-section .captionbg .fss-5{
+        font-size: 14px !important;
+    }
+    .captionbg {
+        background: url('../m/md-caption.png');
+        background-size: 100% 100%;
+    }
+
+    .adverting h5{
+        line-height: 30px;
+        margin-bottom: 50px !important;
+    }
+
+    .img-card1::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 84%;
+        background: url('../media/arrow1.png');
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .img-card2::after {
+        content: '';
+        position: absolute;
+        top: 74%;
+        left: 55%;
+        background: url('../media/arrow2.png');
+        width: 50%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .service-bring .font{
+        font-size: 78px !important;
+    }
+    .imagination-text{
+        font-size: 78px !important;
+    }
+    .service-bring h1{
+        font-size: 78px !important;
+    }
+    .service-bring h2 .imagination-text {
+        font-size: 78px !important;
+        margin-left: calc(100% - 690px) !important;
+    }
+    .leverage h1 , .leverage h2{
+        font-size: 78px !important;
+    }
+    .leverage h6, h6{
+        font-size: 21px !important;
+        margin: 0px 0  10px 0 !important;
+    }
+    .font{
+        font-size: 78px !important;
+    }
+    .font1{
+        font-size: 78px !important;
+    }
+
+
+
+}
+@media only screen and (min-width: 1400px) and (max-width: 1660px) {
+    .image-astroimg {
+        width: 100%;
+    }
+
+    .imgc {
+        z-index: 99;
+        position: absolute;
+        top: 46px;
+        left: -20px;
+    }
+
+    .lhead {
+        margin-left: 0px;
+    }
+
+    .lpara,
+    .lpara2 {
+        left: 0px;
+    }
+
+    .breiefing-image {
+        width: 100% !important;
+    }
+
+    .briefingimgc p,
+    .briefingimgc h5 {
+        margin-left: 1rem;
+        width: 80% !important;
+    }
+
+    .second-row-image-section .card4 {
+        margin-left: 0px !important;
+    }
+
+    .research-image,
+    .conduct-image {
+        max-width: 450px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .card4 .imgc {
+        top: 73px;
+        left: 9px;
+    }
+
+    .conduct-para {
+        width: 80% !important;
+    }
+
+    .avoid {
+        font-size: 30px !important;
+        line-height: 27px !important;
+        margin-left: 62%;
+        margin-top: 1rem;
+    }
+    .fouteen-h{
+        margin: 0 auto !important
+    }
+    .card3 .imgc h3,
+    .card3 .imgc p {
+        margin-left: 0px !important;
+    }
+
+    .md-research {
+        margin-top: 20px;
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+
+    .card3 {
+        margin-left: 8rem !important;
+    }
+
+    .online-section .img img {
+        
+        width: 95% !important;
+        height: 400px !important;
+    }
+
+    .online-section .img img {
+
+        width: 95% !important;
+        height: 400px !important;
+    }
+
+    .card-content li {
+        font-size: 20px !important;
+    }
+    .card-content ol{
+        margin-top: 20px !important;
+    }
+
+    .service-section .captionbg .fss-5{
+        font-size: 14px !important;
+    }
+    .captionbg {
+        background: url('../m/md-caption.png');
+        background-size: 100% 100%;
+    }
+
+    .adverting h5{
+        line-height: 30px;
+        margin-bottom: 50px !important;
+    }
+
+    .img-card1::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 84%;
+        background: url('../media/arrow1.png');
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+    .img-card2::after {
+        content: '';
+        position: absolute;
+        top: 74%;
+        left: 55%;
+        background: url('../media/arrow2.png');
+        width: 50%;
+        height: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .service-bring .font{
+        font-size: 60px !important;
+    }
+    .imagination-text{
+        font-size: 60px !important;
+    }
+    .service-bring h1{
+        font-size: 60px !important;
+    }
+    .service-bring h2 .imagination-text {
+        font-size: 60px !important;
+        margin-left: calc(100% - 530px) !important;
+    }
+    .leverage h1 , .leverage h2{
+        font-size: 60px !important;
+    }
+    .leverage h6, h6{
+        font-size: 21px !important;
+        margin: 0px 0  10px 0 !important;
+    }
+    .font{
+        font-size: 60px !important;
+    }
+    .font1{
+        font-size: 60px !important;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .image-astroimg {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .imgc {
+        z-index: 99;
+        position: absolute;
+        top: 46px;
+        left: -20px;
+    }
+
+    .lhead {
+        margin-left: 0px;
+    }
+
+    .lpara,
+    .lpara2 {
+        left: 0px;
+    }
+
+    .breiefing-image {
+        width: 100% !important;
+    }
+
+    .briefingimgc p,
+    .briefingimgc h5 {
+        margin-left: 1rem;
+        width: 80% !important;
+    }
+
+    .second-row-image-section .card4 {
+        margin-left: 0px !important;
+    }
+
+    .research-image,
+    .conduct-image {
+        max-width: 450px;
+        width: 450px;
+        height: 300px;
+    }
+
+    .card4 .imgc {
+        top: 73px;
+        left: 9px;
+    }
+
+    .conduct-para {
+        width: 80% !important;
+    }
+
+    .avoid {
+        font-size: 30px !important;
+        line-height: 27px !important;
+        margin-left: 100%;
+    }
+
+    .card3 .imgc h3,
+    .card3 .imgc p {
+        margin-left: 0px !important;
+    }
+
+    .md-research {
+        margin-top: 20px;
+        font-size: 25px !important;
+        line-height: 25px !important;
+    }
+
+    .card3 {
+        margin-left: 8rem !important;
+    }
+
+    .online-section .img img {
+        
+        width: 95% !important;
+        height: 400px !important;
+    }
+
+    .online-section .img img {
+
+        width: 95% !important;
+        height: 400px !important;
+    }
+
+    .card-content li {
+        font-size: 20px !important;
+    }
+    .card-content ol{
+        margin-top: 20px !important;
+    }
+
+    .service-section .captionbg .fss-5{
+        font-size: 14px !important;
+    }
+    .captionbg {
+        background: url('../m/md-caption.png');
+        background-size: 100% 100%;
+    }
+
+    .adverting h5{
+        line-height: 30px;
+        margin-bottom: 50px !important;
+    }
+
+    .service-bring .font{
+        font-size: 50px !important;
+    }
+    .imagination-text{
+        font-size: 50px !important;
+    }
+    .service-bring h1{
+        font-size: 50px !important;
+    }
+    .service-bring h2 .imagination-text {
+        font-size: 50px !important;
+        margin-left: calc(100% - 450px) !important;
+    }
+    .leverage h1 , .leverage h2{
+        font-size: 50px !important;
+    }
+    .leverage h6, h6{
+        font-size: 21px !important;
+        margin: 0px 0  10px 0 !important;
+    }
+    .font{
+        font-size: 50px !important;
+    }
+    .font1{
+        font-size: 50px !important;
+    }
+  
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .image-astroimg {
+        width: 100%;
+    }
+    .service-bring h2 .imagination-text{
+        font-size: 40px !important;
+    }
+
+    .img-card2::after {
+        position: relative;
+        display: block;
+        width: 117%;
+        height: 170px;
+        left: 20%;
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        transform: rotate(50deg);
+    }
+
+    .img-card3::after {
+        position: relative;
+        display: none;
+        width: 51%;
+        height: 170px;
+        left: 30%;
+        margin-top: -10rem;
+        margin-bottom: 10rem;
+        transform: rotate(-110deg);
+    }
+
+    .card4 {
+        margin-left: 0px !important;
+    }
+
+    .img-card1::after {
+        position: relative;
+        display: block;
+        width: 112%;
+        height: 90px;
+        left: 30%;
+        margin-top: 4rem;
+        transform: rotate(40deg);
+        z-index: 0;
+    }
+
+    .img-card1 h3,
+    .img-card1 h3,
+    .img-card1 h3,
+    .img-card1 h3 {
+        font-size: 35px !important;
+    }
+
+    .service-section {
+        overflow-x: hidden;
+    }
+
+    .spacebg .getoutimgc {
+        top: 121px !important;
+        left: 29px !important;
+    }
+
+    .spacebg .briefingimgc {
+        top: 122px !important;
+        left: 37px !important;
+        width: 100% !important;
+    }
+
+    .md-mob .research-image {
+        width: 400px;
+        max-width: 400px !important;
+        height: 300px !important;
+    }
+
+    .md-mob .conduct-image,
+    .md-mob .get-fact-image,
+    .md-mob .breiefing-image {
+        width: 400px;
+        max-width: 400px;
+    }
+
+    .md-mob .breiefing-image {
+        height: 300px;
+        width: 400px !important;
+    }
+
+    .md-mob .conduct-image {
+        height: 300px;
+    }
+
+    .mainNavSection .margin-minus-2 {
+        margin-top: -28rem;
+    }
+
+    .service-section .service-banner-margin {
+        margin-top: 0px;
+    }
+
+    .service-section .bannerText h1,
+    .service-section .bannerText h1 span {
+        font-size: 40px !important;
+        line-height: 45px;
+    }
+
+    .service-section .bannerText p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .mainBtn {
+        font-size: 12px;
+    }
+
+    .service-section .sidepadding {
+        margin-top: -100px;
+        padding: 0px !important;
+    }
+
+    .service-section .spacebg {
+        padding-bottom: 100px !important;
+    }
+
+    .service-section .spacebg .top-sapcebg h6 {
+        font-size: 12px !important;
+        line-height: 17px;
+        white-space: pre;
+    }
+
+    .service-section .spacebg .top-sapcebg h2,
+    .service-section .spacebg .top-sapcebg h1 {
+        font-size: 35px !important;
+        line-height: 40px;
+    }
+
+    .service-section .spacebg .top-sapcebg p {
+        font-size: 12px;
+        line-height: 18px !important;
+        margin-top: 15px !important;
+        margin-bottom: 50px;
+        font-weight: normal !important;
+    }
+
+    .image-section-services .lhead {
+        margin-left: -4rem;
+    }
+
+    .img-card1 .md-mob,
+    .img-card2 .md-mob {
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%);
+        width: 90% !important;
+    }
+
+    .md-mob {
+        left: 40%;
+        right: 50%;
+        transform: translate(-50%);
+        width: 80% !important;
+        z-index: 99;
+    }
+
+    .spacebg .imgc {
+        top: 90px;
+        left: 49px;
+        width: 100%;
+    }
+
+    .image-section-second .margint-5 {
+        margin-left: 0px !important;
+    }
+
+    .second-row-image-section {
+        margin-top: -50px;
+    }
+
+    .image-section-services .second-image {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+
+    .image-section-services .lpara {
+        top: -30px;
+        left: -44px;
+        font-size: 10px !important;
+        font-weight: bold !important;
+    }
+
+    .image-section-services .imgc p {
+        margin: -2px 0px !important;
+        font-size: 7px;
+        font-weight: normal;
+    }
+
+    .image-section-services .sbg,
+    .leverage .sbg {
+        padding: 4px 8px !important;
+    }
+
+    .image-section-services .margint-5 {
+        margin-top: 40px !important;
+        margin-left: 11px !important;
+    }
+
+    .image-section-services .margin-top-get-fact {
+        margin-top: 20px;
+        margin-left: 20px !important;
+    }
+
+
+
+    .image-section-services .lpara2 {
+        top: -21px;
+        left: -44px;
+        font-size: 10px !important;
+    }
+
+    .image-section-services .second,
+    .image-section-services h5 {
+        width: 80% !important;
+        font-size: 10px !important;
+        line-height: 13px !important;
+    }
+
+    .image-section-services .imgc .mb-0 {
+        margin: 10px 0px !important;
+    }
+
+    .image-section-services .floatleft {
+        font-size: 7px !important;
+        padding-right: 0px !important;
+    }
+
+    .image-section-second h3 {
+        width: 100% !important;
+        font-size: 49px;
+    }
+
+    .image-section-second .card3 {
+        margin-right: 0px !important;
+        margin-left: 8rem !important;
+    }
+
+    .image-section-second p {
+        margin-top: 20px;
+        font-size: 10px !important;
+    }
+
+    .image-section-second .margint-5 {
+        margin-top: 3px !important;
+    }
+
+    .image-section-second .margint-5 h3 {
+        font-size: 20px !important;
+        line-height: 26px !important;
+        width: 100% !important;
+    }
+
+    .image-section-second .spacebg .imgc p.conduct-para {
+        font-size: 10px !important;
+    }
+
+    .image-section-second h3 {
+        line-height: 32px;
+    }
+
+    .image-section-second .margint-5 .ms-4 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-second .imgc {
+        top: 54px;
+        left: 57px;
+    }
+
+    .image-section-second .conduct {
+        margin-top: 15px !important;
+        line-height: 49px;
+        top: -48px;
+        left: -60px;
+    }
+
+    .image-section-second .conduct-para {
+        font-size: 10px !important;
+        line-height: 16px;
+        width: 69% !important;
+        margin-left: -10px !important;
+        margin-top: 65px !important;
+    }
+
+    .second-row-image-section {
+        padding: 0px !important;
+    }
+
+    .image-section-second .avoid {
+        margin-top: 4rem !important;
+        margin-left: 126px !important;
+        width: 80% !important;
+        font-size: 30px !important;
+    }
+
+    .image-section-second .img-card2 .lpara2 {
+        width: 90% !important;
+    }
+
+    .service-section .sectionPadding {
+        padding: 150px 0px;
+    }
+
+    .service-section .service-bring h6 {
+        font-size: 12px !important;
+        line-height: 19px;
+    }
+
+    .service-section .service-bring h1,
+    .service-section .service-bring h2 {
+        font-size: 40px !important;
+        line-height: 45px;
+    }
+
+    .service-bring .margin_top_bottom {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .service-bring h2 .imagination-text {
+        font-size: 40px !important;
+        margin-left: calc(100% - 360px) !important;
+    }
+
+    .service-bring p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 50%;
+    }
+
+    .leverage h6 {
+        font-size: 12px !important;
+    }
+
+    .leverage h1,
+    .leverage h2 {
+        font-size: 40px !important;
+        line-height: 45px;
+    }
+
+    .online-section .img img {
+        width: 95% !important;
+        height: 300px !important;
+    }
+
+    .leverage .online-section .sbg {
+        font-size: 10px !important;
+    }
+
+    .leverage .card-content li:first-child span {
+        margin-right: 12px;
+    }
+
+    .leverage .online-section ol li {
+        font-size: 16px !important;
+        padding-bottom: 5px;
+    }
+
+
+    .leverage .online-section ol {
+        margin-top: 22px !important;
+        margin-left: 0px !important;
+    }
+
+    .captionbg {
+        background: url('../m/md-caption.png');
+        background-size: 100% 100%;
+    }
+
+
+    .service-section .sectionPadding {
+        padding: 150px 0px 80px 0px;
+    }
+
+    .service-section .captionbg {
+        padding-top: 40px !important;
+    }
+
+    .service-section .captionbg .fss-5 {
+        font-size: 10px !important;
+    }
+
+    .service-section .captionbg .font {
+        font-size: 31px !important;
+        line-height: 35px !important;
+        margin-bottom: -10px !important;
+    }
+
+    .captionbg p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 80%;
+    }
+
+    .captionbg-bottomimage {
+        margin: 40px 0px;
+    }
+
+    .intractive_webdesgin ol li {
+        font-size: .8rem;
+    }
+
+    .intractive_webdesgin .fs-4 {
+        font-size: 10px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 0px !important;
+        margin-left: 10px !important;
+    }
+
+    .intractive_webdesgin h1,
+    .intractive_webdesgin h2 {
+        font-size: 40px !important;
+        line-height: 45px !important;
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+
+    .intractive_webdesgin .down-para p {
+        width: 65%;
+        font-size: 12px !important;
+        line-height: 17px !important;
+    }
+
+    .intractive_webdesgin .order-list ol li {
+        padding-bottom: 5px;
+    }
+
+    .intractive_webdesgin .order-list ol li .sbe {
+        font-size: 8px;
+        padding: 4px 8px !important;
+    }
+
+    .intractive_webdesgin .order-list ol .ms-5 {
+        margin-left: 2.25rem !important;
+    }
+
+    .intractive_webdesgin .interactive_website_video {
+        padding: 10px 30px 60px 30px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding {
+        padding: 50px 0px 80px 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h6 {
+        font-size: 12px !important;
+        line-height: 57px;
+        margin-bottom: 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h1 {
+        font-size: 32px !important;
+        line-height: 35px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 95%;
+    }
+
+    .video_marketing .bg-mob {
+        background-image: url(../m/mob-bg.png);
+        background-size: cover;
+    }
+
+    .video_marketing .video-marketing {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .digitalmarketing .sectionPadding {
+        padding: 20px 0px 50px 0px !important;
+    }
+
+    .digitalmarketing h6,
+    .adverting h6,
+    .premiumqualiy h6,
+    .social h6,
+    .research h6,
+    .pr_comunication h6 {
+        font-size: 12px !important;
+    }
+
+    .digitalmarketing h1,
+    .digitalmarketing h2,
+    .adverting h1,
+    .adverting h2,
+    .premiumqualiy h1,
+    .premiumqualiy h2,
+    .social h1,
+    .social h2,
+    .research h1,
+    .research h2,
+    .pr_comunication h1,
+    .pr_comunication h2,
+    .captionbg h1 {
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+
+    .digitalmarketing p,
+    .adverting p,
+    .premiumqualiy p,
+    .social p,
+    .research p,
+    .pr_comunication p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .digitalmarketing img {
+        margin-top: -20px !important;
+        margin-bottom: 150px;
+    }
+
+    .adverting p {
+        margin: 20px 0px !important;
+    }
+
+    .adverting h5,
+    .research h5 {
+        width: 80%;
+        font-size: 14px !important;
+        line-height: 19px !important;
+    }
+
+    .premiumqualiy {
+        background-image: url(../m/primum-Qulity-mob.png);
+        background-position: center right;
+    }
+
+    .premiumqualiy .container-fluid {
+        margin: 100px 0px 40px 0px;
+    }
+
+    .premiumqualiy p {
+        width: 80%;
+    }
+
+    .premiumqualiy .image-astroimg {
+        width: 100% !important;
+    }
+
+    .social {
+        padding-top: 0px !important;
+        margin-top: 80px !important;
+    }
+
+    .social h6 {
+        margin-top: 30px;
+        margin-bottom: 5px !important;
+    }
+
+    .social p {
+        width: 60% !important;
+    }
+
+    .trans {
+        margin-top: 0px;
+    }
+
+    .imageSectionText p:last-child {
+        padding-left: 0px !important;
+    }
+
+    .imageSection .variable {
+        margin-top: -52px;
+    }
+
+    .imageSectionText {
+        display: none;
+    }
+
+    .research p {
+        margin-top: 0px !important;
+    }
+
+    .research .research-image {
+        margin-bottom: 100px;
+    }
+
+    .pr_comunication p {
+        width: 90%;
+        margin-top: 20px !important;
+    }
+
+    .pr_comunication .mainBtn {
+        display: none;
+    }
+
+    .pr_comunication img {
+        width: 250px !important;
+    }
+
+    #video {
+        height: 270px !important;
+    }
+
+    .first-plays {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        color: #fff !important;
+    }
+
+    .astroimg {
+        margin-left: auto !important;
+        padding-left: 0px !important;
+        margin-top: -140px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .img-card2::after {
+        position: relative;
+        display: block;
+        width: 54%;
+        height: 170px;
+        left: 36%;
+        margin-top: 3rem;
+        margin-bottom: -3rem;
+        transform: rotate(50deg);
+    }
+
+    .img-card3::after {
+        position: relative;
+        display: block;
+        width: 51%;
+        height: 170px;
+        left: 30%;
+        margin-top: -10rem;
+        margin-bottom: 10rem;
+        transform: rotate(-110deg);
+    }
+
+    .card4 {
+        margin-left: 0px !important;
+    }
+
+    .img-card1::after {
+        position: relative;
+        display: block;
+        width: 48%;
+        height: 90px;
+        left: 30%;
+        margin-top: 4rem;
+        transform: rotate(40deg);
+        z-index: 0;
+    }
+
+    .img-card1 h3,
+    .img-card1 h3,
+    .img-card1 h3,
+    .img-card1 h3 {
+        font-size: 35px !important;
+    }
+
+    .service-section {
+        overflow-x: hidden;
+    }
+
+    .spacebg .getoutimgc {
+        top: 146px !important;
+        left: 100px !important;
+    }
+
+    .spacebg .briefingimgc {
+        top: 123px !important;
+        left: 100px !important;
+        width: 80% !important;
+    }
+
+    .md-mob .research-image {
+        width: 450px;
+        max-width: 450px !important;
+        height: 350px !important;
+    }
+
+    .md-mob .conduct-image,
+    .md-mob .get-fact-image,
+    .md-mob .breiefing-image {
+        width: 450px;
+    }
+
+    .md-mob .breiefing-image {
+        height: 300px;
+    }
+
+    .md-mob .conduct-image {
+        height: 250px;
+    }
+
+    .mainNavSection .margin-minus-2 {
+        margin-top: -28rem;
+    }
+
+    .service-section .service-banner-margin {
+        margin-top: 0px;
+    }
+
+    .service-section .bannerText h1,
+    .service-section .bannerText h1 span {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .service-section .bannerText p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .mainBtn {
+        font-size: 12px;
+    }
+
+    .service-section .sidepadding {
+        margin-top: -100px;
+        padding: 0px !important;
+    }
+
+    .service-section .spacebg {
+        padding-bottom: 100px !important;
+    }
+
+    .service-section .spacebg .top-sapcebg h6 {
+        font-size: 12px !important;
+        line-height: 17px;
+        white-space: pre;
+    }
+
+    .service-section .spacebg .top-sapcebg h2,
+    .service-section .spacebg .top-sapcebg h1 {
+        font-size: 31px !important;
+        line-height: 35px;
+    }
+
+    .service-section .spacebg .top-sapcebg p {
+        font-size: 12px;
+        line-height: 18px !important;
+        margin-top: 15px !important;
+        margin-bottom: 50px;
+        font-weight: normal !important;
+    }
+
+    .image-section-services .lhead {
+        margin-left: -4rem;
+    }
+
+    .img-card1 .md-mob,
+    .img-card2 .md-mob {
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%);
+        width: 60% !important;
+    }
+
+    .md-mob {
+        left: 40%;
+        right: 50%;
+        transform: translate(-50%);
+        width: 60% !important;
+        z-index: 99;
+    }
+
+    .spacebg .imgc {
+        top: 90px;
+        left: 49px;
+        width: 100%;
+    }
+
+    .image-section-second .margint-5 {
+        margin-left: 0px !important;
+    }
+
+    .second-row-image-section {
+        margin-top: -50px;
+    }
+
+    .image-section-services .second-image {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+
+    .image-section-services .lpara {
+        top: -30px;
+        left: -44px;
+        font-size: 10px !important;
+        font-weight: bold !important;
+    }
+
+    .image-section-services .imgc p {
+        margin: -2px 0px !important;
+        font-size: 7px;
+        font-weight: normal;
+    }
+
+    .image-section-services .sbg,
+    .leverage .sbg {
+        padding: 4px 8px !important;
+    }
+
+    .image-section-services .margint-5 {
+        margin-top: 40px !important;
+        margin-left: 11px !important;
+    }
+
+    .image-section-services .margin-top-get-fact {
+        margin-top: 20px;
+        margin-left: 20px !important;
+    }
+
+
+
+    .image-section-services .lpara2 {
+        top: -21px;
+        left: -44px;
+        font-size: 10px !important;
+    }
+
+    .image-section-services .second,
+    .image-section-services h5 {
+        width: 80% !important;
+        font-size: 10px !important;
+        line-height: 13px !important;
+    }
+
+    .image-section-services .imgc .mb-0 {
+        margin: 10px 0px !important;
+    }
+
+    .image-section-services .floatleft {
+        font-size: 7px !important;
+        padding-right: 0px !important;
+    }
+
+    .image-section-second h3 {
+        width: 100% !important;
+        font-size: 49px;
+    }
+
+    .image-section-second .card3 {
+        margin-right: 0px !important;
+    }
+
+    .image-section-second p {
+        margin-top: 20px;
+        font-size: 10px !important;
+    }
+
+    .image-section-second .margint-5 {
+        margin-top: 3px !important;
+    }
+
+    .image-section-second .margint-5 h3 {
+        font-size: 20px !important;
+        line-height: 26px !important;
+        width: 100% !important;
+    }
+
+    .image-section-second .spacebg .imgc p.conduct-para {
+        font-size: 10px !important;
+    }
+
+    .image-section-second h3 {
+        line-height: 32px;
+    }
+
+    .image-section-second .margint-5 .ms-4 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-second .imgc {
+        top: 48px;
+        left: 60px;
+    }
+
+    .image-section-second .conduct {
+        margin-top: 15px !important;
+        line-height: 49px;
+        top: -48px;
+        left: -60px;
+    }
+
+    .image-section-second .conduct-para {
+        font-size: 10px !important;
+        line-height: 16px;
+        width: 69% !important;
+        margin-left: -10px !important;
+        margin-top: 65px !important;
+    }
+
+    .second-row-image-section {
+        padding: 0px !important;
+    }
+
+    .image-section-second .avoid {
+        margin-top: 4rem !important;
+        margin-left: 126px !important;
+        width: 80% !important;
+        font-size: 30px !important;
+    }
+
+    .image-section-second .img-card2 .lpara2 {
+        width: 90% !important;
+    }
+
+    .service-section .sectionPadding {
+        padding: 150px 0px;
+    }
+
+    .service-section .service-bring h6 {
+        font-size: 12px !important;
+        line-height: 19px;
+    }
+
+    .service-section .service-bring h1,
+    .service-section .service-bring h2 {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .service-bring .margin_top_bottom {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .service-bring h2 .imagination-text {
+        font-size: 31px !important;
+        margin-left: calc(100% - 286px) !important;
+    }
+
+    .service-bring p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 50%;
+    }
+
+    .leverage h6 {
+        font-size: 12px !important;
+    }
+
+    .leverage h1,
+    .leverage h2 {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .online-section .img img {
+        width: 95% !important;
+        height: 300px !important;
+    }
+
+    .leverage .online-section .sbg {
+        font-size: 10px !important;
+    }
+
+    .leverage .card-content li:first-child span {
+        margin-right: 12px;
+    }
+
+    .leverage .online-section ol li {
+        font-size: 16px !important;
+        padding-bottom: 5px;
+    }
+
+
+    .leverage .online-section ol {
+        margin-top: 22px !important;
+        margin-left: 0px !important;
+    }
+
+
+
+
+    .service-section .sectionPadding {
+        padding: 150px 0px 80px 0px;
+    }
+
+    .service-section .captionbg {
+        padding-top: 40px !important;
+    }
+
+    .service-section .captionbg .fss-5 {
+        font-size: 10px !important;
+    }
+
+    .service-section .captionbg .font {
+        font-size: 31px !important;
+        line-height: 35px !important;
+        margin-bottom: -10px !important;
+    }
+
+    .captionbg p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 80%;
+    }
+
+    .captionbg-bottomimage {
+        margin: 40px 0px;
+    }
+
+    .intractive_webdesgin ol li {
+        font-size: .8rem;
+    }
+
+    .intractive_webdesgin .fs-4 {
+        font-size: 10px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 0px !important;
+        margin-left: 10px !important;
+    }
+
+    .intractive_webdesgin h1,
+    .intractive_webdesgin h2 {
+        font-size: 35px !important;
+        line-height: 39px !important;
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+
+    .intractive_webdesgin .down-para p {
+        width: 65%;
+        font-size: 12px !important;
+        line-height: 17px !important;
+    }
+
+    .intractive_webdesgin .order-list ol li {
+        padding-bottom: 5px;
+    }
+
+    .intractive_webdesgin .order-list ol li .sbe {
+        font-size: 8px;
+        padding: 4px 8px !important;
+    }
+
+    .intractive_webdesgin .order-list ol .ms-5 {
+        margin-left: 2.25rem !important;
+    }
+
+    .intractive_webdesgin .interactive_website_video {
+        padding: 10px 30px 60px 30px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding {
+        padding: 50px 0px 80px 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h6 {
+        font-size: 12px !important;
+        line-height: 57px;
+        margin-bottom: 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h1 {
+        font-size: 28px !important;
+        line-height: 31px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 95%;
+    }
+
+    .video_marketing .bg-mob {
+        background-image: url(../m/mob-bg.png);
+        background-size: cover;
+    }
+
+    .video_marketing .video-marketing {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .digitalmarketing .sectionPadding {
+        padding: 20px 0px 50px 0px !important;
+    }
+
+    .digitalmarketing h6,
+    .adverting h6,
+    .premiumqualiy h6,
+    .social h6,
+    .research h6,
+    .pr_comunication h6 {
+        font-size: 12px !important;
+    }
+
+    .digitalmarketing h1,
+    .digitalmarketing h2,
+    .adverting h1,
+    .adverting h2,
+    .premiumqualiy h1,
+    .premiumqualiy h2,
+    .social h1,
+    .social h2,
+    .research h1,
+    .research h2,
+    .pr_comunication h1,
+    .pr_comunication h2,
+    .captionbg h1 {
+        font-size: 35px !important;
+        line-height: 39px !important;
+    }
+
+    .digitalmarketing p,
+    .adverting p,
+    .premiumqualiy p,
+    .social p,
+    .research p,
+    .pr_comunication p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .digitalmarketing img {
+        margin-top: -20px !important;
+        margin-bottom: 150px;
+    }
+
+    .adverting p {
+        margin: 20px 0px !important;
+    }
+
+    .adverting h5,
+    .research h5 {
+        width: 80%;
+        font-size: 14px !important;
+        line-height: 19px !important;
+    }
+
+    .premiumqualiy {
+        background-image: url(../m/primum-Qulity-mob.png);
+        background-position: center right;
+    }
+
+    .premiumqualiy .container-fluid {
+        margin: 100px 0px 40px 0px;
+    }
+
+    .premiumqualiy p {
+        width: 80%;
+    }
+
+    .premiumqualiy .image-astroimg {
+        width: 100% !important;
+    }
+
+    .social {
+        padding-top: 0px !important;
+        margin-top: 80px !important;
+    }
+
+    .social h6 {
+        margin-top: 30px;
+        margin-bottom: 5px !important;
+    }
+
+    .social p {
+        width: 90% !important;
+    }
+
+    .trans {
+        margin-top: 0px;
+    }
+
+    .imageSectionText p:last-child {
+        padding-left: 0px !important;
+    }
+
+    .imageSection .variable {
+        margin-top: -52px;
+    }
+
+    .imageSectionText {
+        display: none;
+    }
+
+    .research p {
+        margin-top: 0px !important;
+    }
+
+    .research .research-image {
+        margin-bottom: 100px;
+    }
+
+    .pr_comunication p {
+        width: 90%;
+        margin-top: 20px !important;
+    }
+
+    .pr_comunication .mainBtn {
+        display: none;
+    }
+
+    .pr_comunication img {
+        width: 250px !important;
+    }
+
+    #video {
+        height: 270px !important;
+    }
+
+    .first-plays {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        color: #fff !important;
+    }
+
+    .astroimg {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 637px) and (max-width: 768px) {
+    .card4 {
+        margin-left: 0px !important;
+    }
+
+    .service-section {
+        overflow-x: hidden;
+    }
+
+    .mainNavSection .margin-minus-2 {
+        margin-top: -28rem;
+    }
+
+    .service-section .service-banner-margin {
+        margin-top: 0px;
+    }
+
+    .service-section .bannerText h1,
+    .service-section .bannerText h1 span {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .service-section .bannerText p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .mainBtn {
+        font-size: 12px;
+    }
+
+    .service-section .sidepadding {
+        margin-top: -100px;
+        padding: 0px !important;
+    }
+
+    .service-section .spacebg {
+        padding-bottom: 100px !important;
+    }
+
+    .service-section .spacebg .top-sapcebg h6 {
+        font-size: 12px !important;
+        line-height: 17px;
+        white-space: pre;
+    }
+
+    .service-section .spacebg .top-sapcebg h2,
+    .service-section .spacebg .top-sapcebg h1 {
+        font-size: 31px !important;
+        line-height: 35px;
+    }
+
+    .service-section .spacebg .top-sapcebg p {
+        font-size: 12px;
+        line-height: 18px !important;
+        margin-top: 15px !important;
+        margin-bottom: 50px;
+        font-weight: normal !important;
+    }
+
+    .image-section-services .lhead {
+        margin-left: -4rem;
+    }
+
+    .md-mob {
+        left: 40%;
+        right: 50%;
+        transform: translate(-50%);
+        width: 60% !important;
+    }
+
+    .md-mob img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .md-mob .img-fluid {
+        max-width: 350px !important;
+        height: 250px !important;
+    }
+
+    .spacebg .imgc {
+        top: 90px;
+        left: 49px;
+        width: 100%;
+    }
+
+    .image-section-second .margint-5 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-services .second-image {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+
+    .image-section-services .lpara {
+        top: -35px;
+        left: -44px;
+        font-size: 12px;
+        font-weight: bold !important;
+    }
+
+    .image-section-services .imgc p {
+        margin: -2px 0px !important;
+        font-size: 7px;
+        font-weight: normal;
+    }
+
+    .image-section-services .sbg,
+    .leverage .sbg {
+        padding: 4px 8px !important;
+    }
+
+    .image-section-services .margint-5 {
+        margin-top: 20px !important;
+        margin-left: 11px !important;
+    }
+
+    .image-section-services .margin-top-get-fact {
+        margin-top: 20px;
+        margin-left: 20px !important;
+    }
+
+    .image-section-services .spacebg-card h3 {
+        font-size: 31px !important;
+    }
+
+    .image-section-services .lpara2 {
+        top: -35px;
+        left: -44px;
+    }
+
+    .image-section-services .second,
+    .image-section-services h5 {
+        width: 80% !important;
+        font-size: 9px !important;
+        line-height: 13px !important;
+    }
+
+    .image-section-services .imgc .mb-0 {
+        margin: 10px 0px !important;
+    }
+
+    .image-section-services .floatleft {
+        font-size: 5px !important;
+        padding-right: 0px !important;
+    }
+
+    .image-section-second h3 {
+        width: 100% !important;
+        font-size: 31px;
+    }
+
+    .image-section-second .card3 {
+        margin-right: 0px !important;
+    }
+
+    .image-section-second p {
+        font-size: 9px !important;
+    }
+
+    .image-section-second .margint-5 {
+        margin-top: 3px !important;
+    }
+
+    .image-section-second .margint-5 h3 {
+        font-size: 17px !important;
+        line-height: 22px !important;
+        width: 100% !important;
+    }
+
+    .image-section-second .spacebg .imgc p.conduct-para {
+        font-size: 10px !important;
+    }
+
+    .image-section-second h3 {
+        line-height: 22px;
+    }
+
+    .image-section-second .margint-5 .ms-4 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-second .imgc {
+        top: 48px;
+        left: 60px;
+    }
+
+    .image-section-second .conduct {
+        margin-top: 30px !important;
+        line-height: 30px;
+        top: -48px;
+        left: -60px;
+    }
+
+    .image-section-second .conduct-para {
+        font-size: 10px !important;
+        line-height: 14px;
+        width: 69% !important;
+        margin-left: -10px !important;
+        margin-top: 55px !important;
+    }
+
+    .second-row-image-section {
+        padding: 0px !important;
+    }
+
+    .image-section-second .avoid {
+        margin-top: 4rem !important;
+        margin-left: 126px !important;
+        width: 80% !important;
+        font-size: 21px !important;
+    }
+
+    .image-section-second .img-card2 .lpara2 {
+        width: 90% !important;
+    }
+
+    .service-section .sectionPadding {
+        padding: 150px 0px;
+    }
+
+    .service-section .service-bring h6 {
+        font-size: 12px !important;
+        line-height: 19px;
+    }
+
+    .service-section .service-bring h1,
+    .service-section .service-bring h2 {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .service-bring .margin_top_bottom {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .service-bring h2 .imagination-text {
+        font-size: 31px !important;
+        margin-left: calc(100% - 286px) !important;
+    }
+
+    .service-bring p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 50%;
+    }
+
+    .leverage h6 {
+        font-size: 12px !important;
+    }
+
+    .leverage h1,
+    .leverage h2 {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .online-section .img img {
+        width: 95% !important;
+    }
+
+    .leverage .online-section .sbg {
+        font-size: 10px !important;
+    }
+
+    .leverage .card-content li:first-child span {
+        margin-right: 12px;
+    }
+
+    .leverage .online-section ol li {
+        font-size: 16px !important;
+        padding-bottom: 5px;
+    }
+
+
+    .leverage .online-section ol {
+        margin-top: 22px !important;
+        margin-left: 0px !important;
+    }
+
+
+
+
+    .service-section .sectionPadding {
+        padding: 150px 0px 80px 0px;
+    }
+
+    .service-section .captionbg {
+        padding-top: 40px !important;
+    }
+
+    .service-section .captionbg .fss-5 {
+        font-size: 10px !important;
+    }
+
+    .service-section .captionbg .font {
+        font-size: 31px !important;
+        line-height: 35px !important;
+        margin-bottom: -10px !important;
+    }
+
+    .captionbg p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 80%;
+    }
+
+    .captionbg-bottomimage {
+        margin: 40px 0px;
+    }
+
+    .intractive_webdesgin ol li {
+        font-size: .8rem;
+    }
+
+    .intractive_webdesgin .fs-4 {
+        font-size: 10px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 0px !important;
+        margin-left: 10px !important;
+    }
+
+    .intractive_webdesgin h1,
+    .intractive_webdesgin h2 {
+        font-size: 35px !important;
+        line-height: 39px !important;
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+
+    .intractive_webdesgin .down-para p {
+        width: 65%;
+        font-size: 12px !important;
+        line-height: 17px !important;
+    }
+
+    .intractive_webdesgin .order-list ol li {
+        padding-bottom: 5px;
+    }
+
+    .intractive_webdesgin .order-list ol li .sbe {
+        font-size: 8px;
+        padding: 4px 8px !important;
+    }
+
+    .intractive_webdesgin .order-list ol .ms-5 {
+        margin-left: 2.25rem !important;
+    }
+
+    .intractive_webdesgin .interactive_website_video {
+        padding: 10px 30px 60px 30px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding {
+        padding: 50px 0px 80px 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h6 {
+        font-size: 12px !important;
+        line-height: 57px;
+        margin-bottom: 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h1 {
+        font-size: 28px !important;
+        line-height: 31px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 95%;
+    }
+
+    .video_marketing .bg-mob {
+        background-image: url(../m/mob-bg.png);
+        background-size: cover;
+    }
+
+    .video_marketing .video-marketing {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .digitalmarketing .sectionPadding {
+        padding: 20px 0px 50px 0px !important;
+    }
+
+    .digitalmarketing h6,
+    .adverting h6,
+    .premiumqualiy h6,
+    .social h6,
+    .research h6,
+    .pr_comunication h6 {
+        font-size: 12px !important;
+    }
+
+    .digitalmarketing h1,
+    .digitalmarketing h2,
+    .adverting h1,
+    .adverting h2,
+    .premiumqualiy h1,
+    .premiumqualiy h2,
+    .social h1,
+    .social h2,
+    .research h1,
+    .research h2,
+    .pr_comunication h1,
+    .pr_comunication h2,
+    .captionbg h1 {
+        font-size: 35px !important;
+        line-height: 39px !important;
+    }
+
+    .digitalmarketing p,
+    .adverting p,
+    .premiumqualiy p,
+    .social p,
+    .research p,
+    .pr_comunication p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .digitalmarketing img {
+        margin-top: -20px !important;
+        margin-bottom: 150px;
+    }
+
+    .adverting p {
+        margin: 20px 0px !important;
+    }
+
+    .adverting h5,
+    .research h5 {
+        width: 80%;
+        font-size: 14px !important;
+        line-height: 19px !important;
+    }
+
+    .premiumqualiy {
+        background-image: url(../m/primum-Qulity-mob.png);
+        background-position: center right;
+    }
+
+    .premiumqualiy .container-fluid {
+        margin: 100px 0px 40px 0px;
+    }
+
+    .premiumqualiy p {
+        width: 80%;
+    }
+
+    .social {
+        padding-top: 0px !important;
+        margin-top: 80px !important;
+    }
+
+    .social h6 {
+        margin-top: 30px;
+        margin-bottom: 5px !important;
+    }
+
+    .social p {
+        width: 90% !important;
+    }
+
+    .trans {
+        margin-top: 0px;
+    }
+
+    .imageSectionText p:last-child {
+        padding-left: 0px !important;
+    }
+
+    .imageSection .variable {
+        margin-top: -52px;
+    }
+
+    .imageSectionText {
+        display: none;
+    }
+
+    .research p {
+        margin-top: 0px !important;
+    }
+
+    .research .research-image {
+        margin-bottom: 100px;
+    }
+
+    .pr_comunication p {
+        width: 90%;
+        margin-top: 20px !important;
+    }
+
+    .pr_comunication .mainBtn {
+        display: none;
+    }
+
+    .pr_comunication img {
+        width: 250px !important;
+    }
+
+    #video {
+        height: 270px !important;
+    }
+
+    .first-plays {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        color: #fff !important;
+    }
+
+    .astroimg {
+        margin-left: 0px !important;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 637px) {
+    .card4 {
+        margin-left: 0px !important;
+    }
+
+    .service-section {
+        overflow-x: hidden;
+    }
+
+    .mainNavSection .margin-minus-2 {
+        margin-top: -28rem;
+    }
+
+    .service-section .service-banner-margin {
+        margin-top: 0px;
+    }
+
+    .service-section .bannerText h1,
+    .service-section .bannerText h1 span {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .service-section .bannerText p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .mainBtn {
+        font-size: 12px;
+    }
+
+    .service-section .sidepadding {
+        margin-top: -100px;
+        padding: 0px !important;
+    }
+
+    .service-section .spacebg {
+        padding-bottom: 100px !important;
+    }
+
+    .service-section .spacebg .top-sapcebg h6 {
+        font-size: 12px !important;
+        line-height: 17px;
+        white-space: pre;
+    }
+
+    .service-section .spacebg .top-sapcebg h2,
+    .service-section .spacebg .top-sapcebg h1 {
+        font-size: 31px !important;
+        line-height: 35px;
+    }
+
+    .service-section .spacebg .top-sapcebg p {
+        font-size: 12px;
+        line-height: 18px !important;
+        margin-top: 15px !important;
+        margin-bottom: 50px;
+        font-weight: normal !important;
+    }
+
+    .image-section-services .lhead {
+        margin-left: -4rem;
+    }
+
+    .md-mob {
+        left: 40%;
+        right: 50%;
+        transform: translate(-50%);
+        width: 60% !important;
+    }
+
+    .md-mob img {
+        width: 350px;
+        height: 250px;
+    }
+
+    .md-mob .img-fluid {
+        max-width: 350px !important;
+        height: 250px !important;
+    }
+
+    .spacebg .imgc {
+        top: 90px;
+        left: 49px;
+        width: 100%;
+    }
+
+    .image-section-second .margint-5 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-services .second-image {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+
+    .image-section-services .lpara {
+        top: -35px;
+        left: -44px;
+        font-size: 12px;
+        font-weight: bold !important;
+    }
+
+    .image-section-services .imgc p {
+        margin: -2px 0px !important;
+        font-size: 7px;
+        font-weight: normal;
+    }
+
+    .image-section-services .sbg,
+    .leverage .sbg {
+        padding: 4px 8px !important;
+    }
+
+    .image-section-services .margint-5 {
+        margin-top: 20px !important;
+        margin-left: 11px !important;
+    }
+
+    .image-section-services .margin-top-get-fact {
+        margin-top: 20px;
+        margin-left: 20px !important;
+    }
+
+    .image-section-services .spacebg-card h3 {
+        font-size: 31px !important;
+    }
+
+    .image-section-services .lpara2 {
+        top: -35px;
+        left: -44px;
+    }
+
+    .image-section-services .second,
+    .image-section-services h5 {
+        width: 80% !important;
+        font-size: 9px !important;
+        line-height: 13px !important;
+    }
+
+    .image-section-services .imgc .mb-0 {
+        margin: 10px 0px !important;
+    }
+
+    .image-section-services .floatleft {
+        font-size: 5px !important;
+        padding-right: 0px !important;
+    }
+
+    .image-section-second h3 {
+        width: 100% !important;
+        font-size: 31px;
+    }
+
+    .image-section-second .card3 {
+        margin-right: 0px !important;
+    }
+
+    .image-section-second p {
+        font-size: 9px !important;
+    }
+
+    .image-section-second .margint-5 {
+        margin-top: 3px !important;
+    }
+
+    .image-section-second .margint-5 h3 {
+        font-size: 17px !important;
+        line-height: 22px !important;
+        width: 100% !important;
+    }
+
+    .image-section-second .spacebg .imgc p.conduct-para {
+        font-size: 10px !important;
+    }
+
+    .image-section-second h3 {
+        line-height: 22px;
+    }
+
+    .image-section-second .margint-5 .ms-4 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-second .imgc {
+        top: 48px;
+        left: 60px;
+    }
+
+    .image-section-second .conduct {
+        margin-top: 30px !important;
+        line-height: 30px;
+        top: -48px;
+        left: -60px;
+    }
+
+    .image-section-second .conduct-para {
+        font-size: 10px !important;
+        line-height: 14px;
+        width: 69% !important;
+        margin-left: -10px !important;
+        margin-top: 55px !important;
+    }
+
+    .second-row-image-section {
+        padding: 0px !important;
+    }
+
+    .image-section-second .avoid {
+        margin-top: 4rem !important;
+        margin-left: 126px !important;
+        width: 80% !important;
+        font-size: 21px !important;
+    }
+
+    .image-section-second .img-card2 .lpara2 {
+        width: 90% !important;
+    }
+
+    .service-section .sectionPadding {
+        padding: 150px 0px;
+    }
+
+    .service-section .service-bring h6 {
+        font-size: 12px !important;
+        line-height: 19px;
+    }
+
+    .service-section .service-bring h1,
+    .service-section .service-bring h2 {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .service-bring .margin_top_bottom {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .service-bring h2 .imagination-text {
+        font-size: 31px !important;
+        margin-left: calc(100% - 286px) !important;
+    }
+
+    .service-bring p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 50%;
+    }
+
+    .leverage h6 {
+        font-size: 12px !important;
+    }
+
+    .leverage h1,
+    .leverage h2 {
+        font-size: 35px !important;
+        line-height: 39px;
+    }
+
+    .online-section .img img {
+        width: 95% !important;
+    }
+
+    .leverage .online-section .sbg {
+        font-size: 10px !important;
+    }
+
+    .leverage .card-content li:first-child span {
+        margin-right: 12px;
+    }
+
+    .leverage .online-section ol li {
+        font-size: 16px !important;
+        padding-bottom: 5px;
+    }
+
+
+    .leverage .online-section ol {
+        margin-top: 22px !important;
+        margin-left: 0px !important;
+    }
+
+
+
+
+    .service-section .sectionPadding {
+        padding: 150px 0px 80px 0px;
+    }
+
+    .service-section .captionbg {
+        padding-top: 40px !important;
+    }
+
+    .service-section .captionbg .fss-5 {
+        font-size: 10px !important;
+    }
+
+    .service-section .captionbg .font {
+        font-size: 31px !important;
+        line-height: 35px !important;
+        margin-bottom: -10px !important;
+    }
+
+    .captionbg p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 80%;
+    }
+
+    .captionbg-bottomimage {
+        margin: 40px 0px;
+    }
+
+    .intractive_webdesgin ol li {
+        font-size: .8rem;
+    }
+
+    .intractive_webdesgin .fs-4 {
+        font-size: 10px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 0px !important;
+        margin-left: 10px !important;
+    }
+
+    .intractive_webdesgin h1,
+    .intractive_webdesgin h2 {
+        font-size: 35px !important;
+        line-height: 39px !important;
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+
+    .intractive_webdesgin .down-para p {
+        width: 65%;
+        font-size: 12px !important;
+        line-height: 17px !important;
+    }
+
+    .intractive_webdesgin .order-list ol li {
+        padding-bottom: 5px;
+    }
+
+    .intractive_webdesgin .order-list ol li .sbe {
+        font-size: 8px;
+        padding: 4px 8px !important;
+    }
+
+    .intractive_webdesgin .order-list ol .ms-5 {
+        margin-left: 2.25rem !important;
+    }
+
+    .intractive_webdesgin .interactive_website_video {
+        padding: 10px 30px 60px 30px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding {
+        padding: 50px 0px 80px 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h6 {
+        font-size: 12px !important;
+        line-height: 57px;
+        margin-bottom: 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h1 {
+        font-size: 28px !important;
+        line-height: 31px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 95%;
+    }
+
+    .video_marketing .bg-mob {
+        background-image: url(../m/mob-bg.png);
+        background-size: cover;
+    }
+
+    .video_marketing .video-marketing {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .digitalmarketing .sectionPadding {
+        padding: 20px 0px 50px 0px !important;
+    }
+
+    .digitalmarketing h6,
+    .adverting h6,
+    .premiumqualiy h6,
+    .social h6,
+    .research h6,
+    .pr_comunication h6 {
+        font-size: 12px !important;
+    }
+
+    .digitalmarketing h1,
+    .digitalmarketing h2,
+    .adverting h1,
+    .adverting h2,
+    .premiumqualiy h1,
+    .premiumqualiy h2,
+    .social h1,
+    .social h2,
+    .research h1,
+    .research h2,
+    .pr_comunication h1,
+    .pr_comunication h2,
+    .captionbg h1 {
+        font-size: 35px !important;
+        line-height: 39px !important;
+    }
+
+    .digitalmarketing p,
+    .adverting p,
+    .premiumqualiy p,
+    .social p,
+    .research p,
+    .pr_comunication p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .digitalmarketing img {
+        margin-top: -20px !important;
+        margin-bottom: 150px;
+    }
+
+    .adverting p {
+        margin: 20px 0px !important;
+    }
+
+    .adverting h5,
+    .research h5 {
+        width: 80%;
+        font-size: 14px !important;
+        line-height: 19px !important;
+    }
+
+    .premiumqualiy {
+        background-image: url(../m/primum-Qulity-mob.png);
+        background-position: center right;
+    }
+
+    .premiumqualiy .container-fluid {
+        margin: 100px 0px 40px 0px;
+    }
+
+    .premiumqualiy p {
+        width: 80%;
+    }
+
+    .social {
+        padding-top: 0px !important;
+        margin-top: 80px !important;
+    }
+
+    .social h6 {
+        margin-top: 30px;
+        margin-bottom: 5px !important;
+    }
+
+    .social p {
+        width: 90% !important;
+    }
+
+    .trans {
+        margin-top: 0px;
+    }
+
+    .imageSectionText p:last-child {
+        padding-left: 0px !important;
+    }
+
+    .imageSection .variable {
+        margin-top: -52px;
+    }
+
+    .imageSectionText {
+        display: none;
+    }
+
+    .research p {
+        margin-top: 0px !important;
+    }
+
+    .research .research-image {
+        margin-bottom: 100px;
+    }
+
+    .pr_comunication p {
+        width: 90%;
+        margin-top: 20px !important;
+    }
+
+    .pr_comunication .mainBtn {
+        display: none;
+    }
+
+    .pr_comunication img {
+        width: 250px !important;
+    }
+
+    #video {
+        height: 270px !important;
+    }
+
+    .first-plays {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        color: #fff !important;
+    }
+
+    .astroimg {
+        margin-left: 0px !important;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 580px) {
+    .image-section-services .lpara {
+        top: -5px;
+    }
+
+    .image-section-services .lpara2 {
+        top: -5px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .service-section .service-banner-margin {
+        margin-top: 0px;
+    }
+    .getoutimgc .margint-5 .f15{
+        font-size: 9px !important;
+    }
+
+    .service-section .bannerText h1,
+    .service-section .bannerText h1 span {
+        font-size: 31px !important;
+        line-height: 35px;
+    }
+
+    .service-section .bannerText p {
+        font-size: 12px !important;
+        line-height: 20px !important;
+    }
+
+    .mainBtn {
+        font-size: 12px;
+    }
+
+    .service-section .sidepadding {
+        margin-top: -100px;
+        padding: 0px !important;
+    }
+
+    .service-section .spacebg {
+        padding-bottom: 100px !important;
+    }
+
+    .service-section .spacebg .top-sapcebg h6 {
+        font-size: 10px !important;
+        line-height: 17px;
+        white-space: pre;
+    }
+
+    .service-section .spacebg .top-sapcebg h2,
+    .service-section .spacebg .top-sapcebg h1 {
+        font-size: 31px !important;
+        line-height: 35px;
+    }
+
+    .service-section .spacebg .top-sapcebg p {
+        font-size: 12px;
+        line-height: 18px !important;
+        margin-top: 15px !important;
+        margin-bottom: 50px;
+        font-weight: normal !important;
+    }
+
+    .image-section-services .lhead {
+        margin-left: -4rem;
+    }
+
+    .image-section-services .imgc {
+        left: 60px;
+        width: 80%;
+    }
+
+    .image-section-second .margint-5 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-services .second-image {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .image-section-services .lpara {
+        top: -5px;
+        left: -44px;
+        font-size: 12px;
+        font-weight: bold !important;
+    }
+
+    .image-section-services .imgc p {
+        margin: -5px 0px !important;
+        font-size: 7px;
+        font-weight: normal;
+    }
+
+    .image-section-services .sbg,
+    .leverage .sbg {
+        padding: 2px 5px !important;
+    }
+
+    .image-section-services .margint-5 {
+        margin-top: 20px !important;
+        margin-left: 0px !important;
+    }
+
+    .image-section-services .margin-top-get-fact {
+        margin-top: 20px;
+        margin-left: 20px !important;
+    }
+
+    .image-section-services .spacebg-card h3 {
+        font-size: 31px !important;
+    }
+
+    .image-section-services .lpara2 {
+        top: -5px;
+        left: -44px;
+    }
+
+    .image-section-services .second,
+    .image-section-services h5 {
+        width: 80% !important;
+        font-size: 9px !important;
+        line-height: 13px !important;
+    }
+
+    .image-section-services .imgc .mb-0 {
+        margin: 10px 0px !important;
+    }
+
+    .image-section-services .floatleft {
+        font-size: 5px !important;
+    }
+
+    .image-section-second h3 {
+        width: 100% !important;
+        font-size: 31px;
+    }
+
+    .image-section-second p {
+        font-size: 9px !important;
+    }
+
+    .image-section-second .margint-5 {
+        margin-top: 3px !important;
+    }
+
+    .image-section-second .margint-5 h3 {
+        font-size: 17px !important;
+        line-height: 22px !important;
+        width: 100% !important;
+    }
+
+    .image-section-second .spacebg .imgc p.conduct-para {
+        font-size: 10px !important;
+    }
+
+    .image-section-second h3 {
+        line-height: 22px;
+    }
+
+    .image-section-second .margint-5 .ms-4 {
+        margin-left: 0px !important;
+    }
+
+    .image-section-second .imgc {
+        top: 48px;
+        left: 60px;
+    }
+
+    .image-section-second .conduct {
+        margin-top: 10px !important;
+        line-height: 30px;
+        top: -48px;
+        left: -60px;
+    }
+
+    .image-section-second .conduct-para {
+        font-size: 10px !important;
+        line-height: 14px;
+        width: 69% !important;
+        margin-left: -20px !important;
+        margin-top: 35px !important;
+    }
+
+    .second-row-image-section {
+        padding: 0px !important;
+    }
+
+    .image-section-second .avoid {
+        margin-top: 1.9rem !important;
+        margin-right: auto;
+        width: 80%;
+        font-size: 21px !important;
+    }
+
+    .image-section-second .img-card2 .lpara2 {
+        width: 90% !important;
+    }
+
+    .service-section .sectionPadding {
+        padding: 150px 0px;
+    }
+
+    .service-section .service-bring h6 {
+        font-size: 10px !important;
+        line-height: 19px;
+    }
+
+    .service-section .service-bring h1,
+    .service-section .service-bring h2 {
+        font-size: 31px !important;
+        line-height: 35px;
+    }
+
+    .service-bring .margin_top_bottom {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .service-bring h2 .imagination-text {
+        font-size: 31px !important;
+        margin-left: calc(100% - 286px) !important;
+    }
+
+    .service-bring p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 50%;
+    }
+
+    .leverage h6 {
+
+        font-size: 10px !important;
+    }
+
+    .leverage h1,
+    .leverage h2 {
+        font-size: 31px !important;
+        line-height: 35px;
+    }
+
+    .online-section .img img {
+        width: 100% !important;
+    }
+
+    .leverage .online-section .sbg {
+        font-size: 6px !important;
+    }
+
+    .leverage .card-content li:first-child span {
+        margin-right: 12px;
+    }
+
+    .leverage .online-section ol li {
+        font-size: 13px !important;
+    }
+
+    .leverage .online-section ol {
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+
+    .leverage img {
+        height: 219px;
+    }
+
+    .leverage .onffline img {
+        height: 198px;
+    }
+
+    .service-section .sectionPadding {
+        padding: 150px 0px 80px 0px;
+    }
+
+    .service-section .captionbg {
+        padding-top: 40px !important;
+    }
+
+    .service-section .captionbg .fss-5 {
+        font-size: 10px !important;
+    }
+
+    .service-section .captionbg .font {
+        font-size: 31px !important;
+        line-height: 35px !important;
+        margin-bottom: -10px !important;
+    }
+
+    .captionbg p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 80%;
+    }
+
+    .captionbg-bottomimage {
+        margin: 40px 0px;
+    }
+
+    .intractive_webdesgin ol li {
+        font-size: .8rem;
+    }
+
+    .intractive_webdesgin .fs-4 {
+        font-size: 10px !important;
+        padding-bottom: 5px !important;
+        margin-bottom: 0px !important;
+        margin-left: 10px !important;
+    }
+
+    .intractive_webdesgin h1,
+    .intractive_webdesgin h2 {
+        font-size: 31px !important;
+        line-height: 35px !important;
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+
+    .intractive_webdesgin .down-para p {
+        width: 65%;
+        font-size: 12px !important;
+        line-height: 17px !important;
+    }
+
+    .intractive_webdesgin .order-list ol li .sbe {
+        font-size: 6px;
+        padding: 3px 6px !important;
+    }
+
+    .intractive_webdesgin .order-list ol .ms-5 {
+        margin-left: 2.25rem !important;
+    }
+
+    .intractive_webdesgin .interactive_website_video {
+        padding: 10px 30px 60px 30px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding {
+        padding: 50px 0px 80px 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h6 {
+        font-size: 10px !important;
+        line-height: 57px;
+        margin-bottom: 0px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding h1 {
+        font-size: 28px !important;
+        line-height: 31px !important;
+    }
+
+    .video_marketing .sidepadding .sectionPadding p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: 95%;
+    }
+
+    .video_marketing .bg-mob {
+        background-image: url(../m/mob-bg.png);
+        background-size: cover;
+    }
+
+    .video_marketing .video-marketing {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+
+    .digitalmarketing .sectionPadding {
+        padding: 20px 0px 50px 0px !important;
+    }
+
+    .digitalmarketing h6,
+    .adverting h6,
+    .premiumqualiy h6,
+    .social h6,
+    .research h6,
+    .pr_comunication h6 {
+        font-size: 10px !important;
+    }
+
+    .digitalmarketing h1,
+    .digitalmarketing h2,
+    .adverting h1,
+    .adverting h2,
+    .premiumqualiy h1,
+    .premiumqualiy h2,
+    .social h1,
+    .social h2,
+    .research h1,
+    .research h2,
+    .pr_comunication h1,
+    .pr_comunication h2,
+    .captionbg h1 {
+        font-size: 31px !important;
+        line-height: 35px !important;
+    }
+
+    .digitalmarketing p,
+    .adverting p,
+    .premiumqualiy p,
+    .social p,
+    .research p,
+    .pr_comunication p {
+        font-size: 12px !important;
+        line-height: 18px !important;
+    }
+
+    .digitalmarketing img {
+        margin-top: -20px !important;
+        margin-bottom: 150px;
+    }
+
+    .adverting p {
+        margin: 20px 0px !important;
+    }
+
+    .adverting h5,
+    .research h5 {
+        width: 80%;
+        font-size: 14px !important;
+        line-height: 19px !important;
+    }
+
+    .premiumqualiy {
+        background-image: url(../m/primum-Qulity-mob.png);
+        background-position: center right;
+    }
+
+    .premiumqualiy .container-fluid {
+        margin: 100px 0px 40px 0px;
+    }
+
+    .premiumqualiy p {
+        width: 80%;
+    }
+
+    .social {
+        padding-top: 0px !important;
+        margin-top: 80px !important;
+    }
+
+    .social h6 {
+        margin-top: 30px;
+        margin-bottom: 5px !important;
+    }
+
+    .social p {
+        width: 90% !important;
+    }
+
+    .trans {
+        margin-top: 0px;
+    }
+
+    .imageSectionText p:last-child {
+        padding-left: 0px !important;
+    }
+
+    .imageSection .variable {
+        margin-top: -52px;
+    }
+
+    .imageSectionText {
+        display: none;
+    }
+
+    .research p {
+        margin-top: 0px !important;
+    }
+
+    .research .research-image {
+        margin-bottom: 100px;
+    }
+
+    .pr_comunication p {
+        width: 90%;
+        margin-top: 20px !important;
+    }
+
+    .pr_comunication .mainBtn {
+        display: none;
+    }
+
+    .pr_comunication img {
+        width: 250px !important;
+    }
+
+    #video {
+        height: 270px !important;
+    }
+
+    .first-plays {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        color: #fff !important;
+    }
+
+}

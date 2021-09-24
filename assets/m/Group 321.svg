@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.027" height="127.859" viewBox="0 0 15.027 127.859">
+  <g id="Group_321" data-name="Group 321" transform="translate(-50.588 -608.141)">
+    <text id="Gazillionx" transform="translate(60.588 662) rotate(-90)" font-size="7" font-family="Montserrat-Bold, Montserrat" font-weight="700" letter-spacing="0.449em"><tspan x="-73.353" y="0">GAZILLIONX</tspan></text>
+    <g id="Group_104" data-name="Group 104" transform="translate(-50.353 -29.962)">
+      <path id="Path_6870" data-name="Path 6870" d="M2226,652.016v21.214" transform="translate(-2116.953 3.905)" fill="none" stroke="#000" stroke-width="1"/>
+      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(106.941 675.962)" fill="#fff" stroke="#000" stroke-width="1">
+        <circle cx="2" cy="2" r="2" stroke="none"/>
+        <circle cx="2" cy="2" r="1.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_metro-facebook" data-name="Icon metro-facebook" d="M15.093,1.928H5.075a2.5,2.5,0,0,0-2.5,2.5V14.45a2.5,2.5,0,0,0,2.5,2.5h5.009V10.381H8.206V8.5h1.878V7.093a2.348,2.348,0,0,1,2.348-2.348H14.78V6.624H12.432a.47.47,0,0,0-.47.47V8.5h2.583l-.47,1.878H11.962v6.574h3.131a2.5,2.5,0,0,0,2.5-2.5V4.433a2.5,2.5,0,0,0-2.5-2.5Z" transform="translate(48.018 606.213)"/>
+  </g>
+</svg>

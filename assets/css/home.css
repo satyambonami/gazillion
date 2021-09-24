@@ -1,0 +1,297 @@
+    /* Home Css */
+    .mantra {
+        background: url('../media/sparkebg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .mantra h1 span {
+        font-size: 5rem;
+        background-color: #0369E2;
+    }
+
+    /* .mantra h1:nth-child(1) span {
+        padding-right: 1rem;
+        padding-left: 3rem !important;
+    }
+
+    .mantra h1:nth-child(2) span {
+        padding-right: 1rem;
+        padding-left: 6rem !important;
+    } */
+    .mantra-content h3{
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .mantra-m-minus{
+        margin-top: -28px;
+    }
+    .mantra h3 span {
+        font-size: 2.75rem;
+    }
+
+    .mantraText h1 {
+        z-index: 9;
+        margin-right: -80px;
+        position: relative;
+    }
+
+    .mantraText h1 span {
+        z-index: 9;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .mantraImg {
+        z-index: 1;
+    }
+
+    .mantra-content {
+        margin-top: -5rem;
+    }
+
+    .SectionNav .get-in-touch {
+        bottom: 105px;
+    }
+
+    .SectionNav .get-in-touch h5 {
+        transform: rotateZ(180deg);
+        writing-mode: vertical-lr;
+    }
+
+    .bVoiceText h1 span {
+        font-size: 5rem;
+        background-color: #000;
+        /* line-height: 0px; */
+        letter-spacing: 5.9px;
+    }
+
+    .bVoiceText h1 {
+        font-size: 5.5625rem;
+    }
+
+    .bVoiceText h1:nth-child(1) span {
+        padding-right: 1rem;
+        padding-left: 1rem !important;
+    }
+
+    .bVoiceText h1:nth-child(2) span {
+        padding-right: 1rem;
+        padding-left: 1rem !important;
+    }
+
+
+
+    .slick-dots {
+        display: none !important;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0px !important;
+    }
+
+    .cValue {
+        background-image: url('../media/Group324.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .cValueText h1 span {
+        font-size: 5rem;
+        background-color: #fff;
+    }
+
+    .cValueText h1 {
+        font-size: 5rem;
+    }
+
+    .cValueLi {
+        writing-mode: vertical-lr;
+        transform: rotateZ(180deg);
+    }
+
+    .cValueText ul li {
+        width: 120px;
+        border-left: 1px solid #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .cValueUlText span{
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 21px ;
+        font-weight: 600 ;
+    } 
+    .cValueText span{
+        font-family: 'Hanson-bold', sans-serif;
+      
+    }
+    .C-value-txt{
+        width: 75% ;
+    }
+    .cValueText p{
+        line-height: 26px;
+    }
+    .cValueText ul li:last-child{
+        width: 96px;
+    }
+    .list-core-value{
+        padding-left: 22px;
+    }
+
+    .cValueText ul li .cValueUlText {
+        min-height: 350px;
+    }
+
+    .cValueText h1:nth-child(1) span {
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .cValueText h1:nth-child(2) span {
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+
+    .CprespText h1 {
+        position: relative;
+        z-index: 9;
+    }
+    .CprespText p{
+        font-size: 21px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 31px;
+    }
+    .CprespText h5{
+        font-size: 31px;
+        font-weight: bold;
+    }
+    .CprespText h1 span {
+        font-size: 5rem;
+        background-color: #000;
+    }
+
+    .CprespImg {
+        z-index: 1;
+    }
+
+    .value {
+        background: url(../media/bg.png);
+        
+        background-repeat: no-repeat;
+    }
+    .value{
+        margin-bottom: 132px;
+    } 
+    .value-proposition{
+        margin-left: 182px;
+    }
+    .value-proposition h1 {
+        margin-left: 55% !important;
+    }
+
+    .value-proposition h1,.value-proposition h2{
+        font-size: 96px !important;
+        font-weight: bold;
+        padding: 0 20px !important;
+    }
+    .value-content p{
+        font-size:21px;
+        margin-right: 78px !important;
+        width: 70% ;
+    }
+    .w-85{
+        width: 85%;
+    }
+
+    .imageSectionText p {
+        font-size: 0.875rem;
+    }
+
+    .imageSectionText span {
+        font-size: 0.775rem;
+        letter-spacing: 1.75px;
+        font-weight: 500;
+    }
+
+    .imageSectionText b {
+        font-size: 0.875rem;
+    }
+
+    .imageSectionText i {
+        color: #0369E2;
+        transform: rotateZ(55deg);
+    }
+
+    .imageSectionText:last-child i {
+        color: #0369E2;
+        transform: rotateZ(320deg);
+    }
+
+    .imageSectionText p:first-child {
+        padding-left: 36px;
+    }
+
+    .variable img {
+        margin-left: -60px;
+    }
+
+    .imageSection {
+        background-image: url('../media/bg1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .client-perspective {
+        right: 13%;
+    }
+
+    .client-perspective h1 span {
+        padding: 0;
+        /* line-height: 120px; */
+        position: relative;
+        /* right: -9%; */
+        /* margin-left: %; */
+    }
+
+    .client-perspective h1:nth-child(2) span {
+        position: relative;
+        /* right: 45%; */
+        margin-left: -54%;
+    }
+
+    /* for videos */
+
+    .cvideo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cvideo video {
+        width: 100%;
+        height: 100%
+    }
+
+    .mantravideo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mantravideo video {
+        width: 100%;
+        height: 100%
+    }
+
+    .plays {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 8rem !important;
+        cursor: pointer;
+    }
+
+    /* end */
+    /* responsive  */
+    /* end */
+

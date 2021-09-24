@@ -1,0 +1,80 @@
+ /* bBanner Text */
+ .mainNavSection{
+    background-image: url();
+ }
+ .bannerText h1 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    line-height: 82px;
+    font-size: 89px;
+}
+.bannerText p{
+    line-height: 31px;
+}
+.bannerText h3 {
+    font-size: 2.5rem;
+    line-height: 38px;
+}
+/* form  inner the header banner*/
+
+.eform::placeholder {
+    color: #000;
+}
+
+.f12 {
+    font-size: 0.75rem;
+}
+
+.slider {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.slider h1 {
+    font-size: 2.75rem;
+}
+
+.slick-dots {
+    display: none !important;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px !important;
+}
+/* Responsive */
+
+.card-body video{
+    object-fit: fill;
+    width: 100%;
+    height: 300px;
+}
+
+
+.media-section .card-body h3{
+    padding-bottom: 20px;
+    font-size: 40px;
+
+}
+.media-section .card-body p{
+    line-height: 31px !important;
+}
+.journey p.confidetal{
+    font-size: 0.625rem;
+}
+.width25{
+    width:25%;
+}
+.width-m-75{
+    width: 75%;
+}
+@media(max-width:576px) {
+   
+    .f-resposive{
+        font-size: 2.5rem;
+    }
+    .mainBg {
+       background-color: #0369E2;
+       width: fit-content;
+       padding: .5rem;
+    }
+}
