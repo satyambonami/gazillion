@@ -906,7 +906,7 @@
     width: 100% !important;
   }
   .media-section .width25{
-    width: 41%;
+    width: 60%;
   }
   /* contact */
   .contactsecion .mh-top {
@@ -1581,7 +1581,7 @@
     width: 100% !important;
   }
   .media-section .width25{
-    width: 41%;
+    width: 60%;
   }
   /* contact */
   .contactsecion .mh-top {
@@ -2251,7 +2251,7 @@
     width: 100% !important;
   }
   .media-section .width25{
-    width: 41%;
+    width: 90%;
   }
   /* contact */
   .contactsecion .mh-top {
@@ -3339,3 +3339,9 @@
 }
 
 
+@media screen and (max-width : 480px) {
+  .image-background-client{
+     margin: 0px 5px !important;
+  }
+  
+}
