@@ -317,6 +317,10 @@
         width: 100%;
         margin-top: 50px;
     }
+    .mob-background{
+        background-color: #ffffff !important;
+        background-image: unset;
+    }
 
     .imgc {
         z-index: 99;
