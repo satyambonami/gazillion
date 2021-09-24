@@ -1,63 +1,546 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Cursor | Demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/navigation.css">
-    <link rel="stylesheet" href="assets/css/home.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/mouse.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=3.0"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/navigation.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/mouse.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lato:700");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background: #111;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.page {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  font-size: calc(var(--font-size) * 1px);
+  font-weight: bold;
+  
+  justify-content: center;
+  position: relative;
+}
+.container {
+  height: 100vh;
+  overflow: auto;
+  overflow-x: hidden;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+}
+.page {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .page {
+    font-size: 5rem;
+  }
+}
+.page:nth-child(n) {
+  background: #7e05d7;
+}
+.page:nth-child(2n) {
+  background: #f21e56;
+}
+.page:nth-child(3n) {
+  background: #bd04a9;
+}
+.page .char {
+  display: inline-block;
+  -webkit-animation-delay: calc(0.25s + var(--char-index) * 0.1s);
+          animation-delay: calc(0.25s + var(--char-index) * 0.1s);
+  transition: all 0.25s calc(0.25s + var(--char-index) * 0.1s);
+}
+.text--enter [data-scroll='out'] .char {
+  opacity: 0;
+  transform: translate(0, -150%);
+}
+.text--enter .char {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.text--random [data-scroll='out'] .char:nth-of-type(1) {
+  transform: translateX(-155%) translateY(140%);
+}
+.text--random [data-scroll='out'] .char:nth-of-type(2) {
+  transform: translateX(-85%) translateY(206%);
+}
+.text--random [data-scroll='out'] .char:nth-of-type(3) {
+  transform: translateX(-103%) translateY(-219%);
+}
+.text--random [data-scroll='out'] .char:nth-of-type(4) {
+  transform: translateX(-111%) translateY(-33%);
+}
+.text--random [data-scroll='out'] .char:nth-of-type(5) {
+  transform: translateX(158%) translateY(170%);
+}
+.text--random [data-scroll='out'] .char:nth-of-type(6) {
+  transform: translateX(126%) translateY(182%);
+}
+.text--swapsies [data-scroll='in'] .char:nth-of-type(odd),
+.text--swapsies [data-scroll='out'] .char:nth-of-type(odd) {
+  transform: translateX(100%);
+}
+.text--swapsies [data-scroll='in'] .char:nth-of-type(even),
+.text--swapsies [data-scroll='out'] .char:nth-of-type(even) {
+  transform: translateX(-100%);
+}
+.text--swapsies [data-scroll='in'] .char {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.text--swapsies [data-scroll='in'] .char:nth-of-type(odd) {
+  -webkit-animation-name: swap-left;
+          animation-name: swap-left;
+}
+.text--swapsies [data-scroll='in'] .char:nth-of-type(even) {
+  -webkit-animation-name: swap-right;
+          animation-name: swap-right;
+}
+@-webkit-keyframes swap-right {
+  25% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+  75% {
+    transform: translateX(0) translateY(-100%);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes swap-right {
+  25% {
+    transform: translateX(-100%) translateY(-100%);
+  }
+  75% {
+    transform: translateX(0) translateY(-100%);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@-webkit-keyframes swap-left {
+  25% {
+    transform: translateX(100%) translateY(100%);
+  }
+  75% {
+    transform: translateX(0) translateY(100%);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+@keyframes swap-left {
+  25% {
+    transform: translateX(100%) translateY(100%);
+  }
+  75% {
+    transform: translateX(0) translateY(100%);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+.text--fading [data-scroll='out'] .char {
+  opacity: 0;
+}
+.text--flipping [data-scroll='out'] .char {
+  transform: rotateY(180deg);
+}
+.text--slide .char {
+  transition-delay: calc((var(--char-total) - var(--char-index)) * 0.1s);
+}
+.text--slide [data-scroll='out'] .char {
+  opacity: 0;
+  transform: translate(-300%, 0) skewX(20deg);
+}
+.text--karaoke .char {
+  color: rgba(255,255,255,0.15);
+  transition-duration: 0.1s;
+}
+.text--karaoke .char:after {
+  color: #fff;
+  visibility: visible;
+}
+.text--karaoke [data-scroll='in'] .char:after {
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+.text--karaoke [data-scroll='out'] .char:after {
+  -webkit-clip-path: inset(0 100% 0 0);
+          clip-path: inset(0 100% 0 0);
+}
+.text--filling .char {
+  color: rgba(255,255,255,0.15);
+}
+.text--filling .char:after {
+  color: #fff;
+  visibility: visible;
+}
+.text--filling [data-scroll='in'] .char:after {
+  -webkit-clip-path: inset(0 0 0 0);
+          clip-path: inset(0 0 0 0);
+}
+.text--filling [data-scroll='out'] .char:after {
+  -webkit-clip-path: inset(100% 0 0 0);
+          clip-path: inset(100% 0 0 0);
+}
+.text--blocks [data-scroll='out'] .char {
+  visibility: hidden;
+}
+.text--blocks [data-scroll='in'] {
+  overflow: hidden;
+  position: relative;
+}
+.text--blocks [data-scroll='in'] .char {
+  transition-delay: 0.5s;
+}
+.text--blocks [data-scroll='in']:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  -webkit-animation: block 0.5s 0.25s both;
+          animation: block 0.5s 0.25s both;
+}
+@-webkit-keyframes block {
+  0% {
+    transform: translate(-110%, 0);
+  }
+  45%, 55% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(110%, 0);
+  }
+}
+@keyframes block {
+  0% {
+    transform: translate(-110%, 0);
+  }
+  45%, 55% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(110%, 0);
+  }
+}
+.text--scaling [data-scroll='out'] .char {
+  transform: scale(0);
+}
+.text--turning [data-scroll='out'] .char {
+  transform: rotateY(90deg);
+}
+.text--folding [data-scroll='out'] .char {
+  transform: rotateX(90deg);
+  transform-origin: bottom;
+}
+.text--bulge [data-scroll='in'] .char {
+  -webkit-animation-name: bulge;
+          animation-name: bulge;
+  -webkit-animation-duration: 0.25s;
+          animation-duration: 0.25s;
+}
+@-webkit-keyframes bulge {
+  50% {
+    transform: scale(1.5);
+  }
+}
+@keyframes bulge {
+  50% {
+    transform: scale(1.5);
+  }
+}
+.text--perspective {
+  perspective: 1000px;
+}
+.text--perspective .char {
+  transition: transform 0.25s calc(0.25s + var(--char-index) * 0.1s), opacity 0.05s calc(0.25s + var(--char-index) * 0.1s);
+}
+.text--perspective [data-scroll='out'] .char {
+  opacity: 0;
+  transform: translate3d(-25px, -20px, -800px);
+}
+.text--zipping .char {
+  transition: transform 0.25s calc(0.25s + var(--char-index) * 0.1s), opacity 0.05s calc(0.25s + var(--char-index) * 0.1s);
+}
+.text--zipping [data-scroll='out'] .char {
+  opacity: 0;
+}
+.text--zipping [data-scroll='out'] .char:nth-of-type(odd) {
+  transform: translate(0, -100%);
+}
+.text--zipping [data-scroll='out'] .char:nth-of-type(even) {
+  transform: translate(0, 100%);
+}
+.text--spinning [data-scroll='out'] .char {
+  transform: rotateY(-360deg);
+}
+.text--tumbling .char {
+  transition-delay: calc((var(--char-total) - var(--char-index)) * 0.1s);
+}
+.text--tumbling [data-scroll='out'] .char {
+  opacity: 0;
+  transform: translate(-300%, -50%) rotate(1080deg) scale(0);
+}
+.text--bubbling .char {
+  transition-timing-function: cubic-bezier(0.75, -2, 0.75, 2);
+}
+.text--bubbling .char:nth-of-type(1) {
+  transition-delay: 0.4s;
+}
+.text--bubbling .char:nth-of-type(2) {
+  transition-delay: 0.5s;
+}
+.text--bubbling .char:nth-of-type(3) {
+  transition-delay: 0.3s;
+}
+.text--bubbling .char:nth-of-type(4) {
+  transition-delay: 0.6s;
+}
+.text--bubbling .char:nth-of-type(5) {
+  transition-delay: 0.6s;
+}
+.text--bubbling .char:nth-of-type(6) {
+  transition-delay: 0.2s;
+}
+.text--bubbling .char:nth-of-type(7) {
+  transition-delay: 0.5s;
+}
+.text--bubbling .char:nth-of-type(8) {
+  transition-delay: 0.7s;
+}
+.text--bubbling [data-scroll='out'] .char {
+  transform: scale(0.5);
+}
+.text--swinging .char {
+  transform-origin: calc((var(--char-total) - var(--char-index)) * 100%) -100%;
+  transition-delay: calc((var(--char-total) - var(--char-index)) * 0.1s);
+}
+.text--swinging [data-scroll='out'] .char {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+.text--rolling .char {
+  transition: transform 1s, opacity 0.2s;
+  transition-delay: calc((var(--char-total) - var(--char-index)) * 0.1s);
+}
+.text--rolling [data-scroll='out'] .char {
+  opacity: 0;
+  transform: translate(-500%, 0) scale(0) rotate(-1440deg);
+}
+.text--blowing .char {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  transform-origin: left bottom;
+  -webkit-animation-delay: calc(var(--char-index) * 0.025s);
+          animation-delay: calc(var(--char-index) * 0.025s);
+}
+.text--blowing [data-scroll='in'] .char {
+  -webkit-animation-name: blowing;
+          animation-name: blowing;
+}
+@-webkit-keyframes blowing {
+  50%, 60%, 70% {
+    transform: skewX(-35deg);
+  }
+  55%, 65%, 75% {
+    transform: skewX(-40deg);
+  }
+}
+@keyframes blowing {
+  50%, 60%, 70% {
+    transform: skewX(-35deg);
+  }
+  55%, 65%, 75% {
+    transform: skewX(-40deg);
+  }
+}
+.text--meeting .char {
+  transition-delay: calc((var(--char-total) - var(--char-index)) * 0.1s);
+}
+.text--meeting .char:nth-of-type(even) {
+  transform-origin: top right;
+}
+.text--meeting .char:nth-of-type(odd) {
+  transform-origin: bottom left;
+}
+.text--meeting [data-scroll='out'] .char {
+  transform: rotate(180deg);
+}
+.text--conveyor [data-scroll='in'] .char {
+  transform-origin: left bottom;
+  -webkit-animation: convey 1s both linear;
+          animation: convey 1s both linear;
+  -webkit-animation-delay: calc((var(--char-total) - var(--char-index)) * 0.15s);
+          animation-delay: calc((var(--char-total) - var(--char-index)) * 0.15s);
+  transition: none;
+}
+@-webkit-keyframes convey {
+  0% {
+    transform: translate(calc((var(--char-total) - (var(--char-total) - var(--char-index))) * -100%), 0) rotate(-180deg) translate(calc((var(--char-total) - var(--char-index)) * -100%), 0);
+  }
+  40% {
+    transform: translate(calc((var(--char-total) - (var(--char-total) - var(--char-index))) * -100%), 0) rotate(-180deg) translate(0, 0);
+  }
+  50% {
+    transform: translate(calc((var(--char-total) - (var(--char-total) - var(--char-index))) * -100%), 0) rotate(0deg) translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) translate(0, 0);
+  }
+}
+@keyframes convey {
+  0% {
+    transform: translate(calc((var(--char-total) - (var(--char-total) - var(--char-index))) * -100%), 0) rotate(-180deg) translate(calc((var(--char-total) - var(--char-index)) * -100%), 0);
+  }
+  40% {
+    transform: translate(calc((var(--char-total) - (var(--char-total) - var(--char-index))) * -100%), 0) rotate(-180deg) translate(0, 0);
+  }
+  50% {
+    transform: translate(calc((var(--char-total) - (var(--char-total) - var(--char-index))) * -100%), 0) rotate(0deg) translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) translate(0, 0);
+  }
+}
+
+    </style>
   </head>
   <body>
-    <div class="cb-demo">
-      <div class="cb-demo-content">
-        <div class="cb-demo-container">
-          <div class="cb-demo-items">
-            <div class="cb-demo-row">
-              <div class="cb-demo-item" data-cursor="-color-red">
-                <div class="cb-demo-item-title">Set Color</div>
-                <div class="cb-demo-item-text" data-cursor="-color-green">Any color via CSS class with <b>.setState('colorClass')</b> or <b>[data-cursor="colorClass"</b>] attribute</div>
-              </div>
-              <div class="cb-demo-item" data-cursor-text="Hello!">
-                <div class="cb-demo-item-title">Set Text</div>
-                <div class="cb-demo-item-text">Set text with <b>.setText('Text string')</b> or <b>[data-cursor-text="Text string"</b>] attribute</div>
-              </div>
-              <div class="cb-demo-item" data-cursor="-opaque">
-                <div class="cb-demo-item-title">Exclusion mode</div>
-                <div class="cb-demo-item-text">Exclusion or opaque mode with <b>.setState('-opaque')</b> or <b>[data-cursor="-opaque"</b>] attribute</div>
-              </div>
-            </div>
-            <div class="cb-demo-row">
-              <div class="cb-demo-item" data-cursor="-lg">
-                <div class="cb-demo-item-title">Set size</div>
-                <div class="cb-demo-item-text">Any size via CSS class with <b>.setState('sizeClass')</b> or <b>[data-cursor="sizeClass"</b>] attribute</div>
-              </div>
-              <div class="cb-demo-item" data-cursor="-exclusion -lg" data-cursor-stick="#cursor-stick-area">
-                <div class="cb-demo-item-title" id="cursor-stick-area">Stick</div>
-                <div class="cb-demo-item-text">Set sticky cursor with <b>.setStick(element)</b> or <b>[data-cursor-stick="selector"</b>] attribute</div>
-              </div>
-              <div class="cb-demo-item" data-magnetic data-cursor="-opaque">
-                <div class="cb-demo-item-title">Magnetic</div>
-                <div class="cb-demo-item-text">Magnetic via [data-magnetic] attribute and opaque style cursor</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
+<div class="container">
+  <div class="page">
+    <div class="text">Scroll for cascading text effects!</div>
+  </div>
+  <div class="page">
+    <div class="text text--random" data-scroll="out" data-splitting="">Random</div>
+  </div>
+  <div class="page">
+    <div class="text text--enter" data-scroll="out" data-splitting="">Enter</div>
+  </div>
+  <div class="page">
+    <div class="text text--swapsies" data-scroll="out" data-splitting="">Swapsies</div>
+  </div>
+  <div class="page">
+    <div class="text text--fading" data-scroll="out" data-splitting="">Fading</div>
+  </div>
+  <div class="page">
+    <div class="text text--flipping" data-scroll="out" data-splitting="">Flipping</div>
+  </div>
+  <div class="page">
+    <div class="text text--slide" data-scroll="out" data-splitting="">Slide</div>
+  </div>
+  <div class="page">
+    <div class="text text--karaoke" data-scroll="out" data-splitting="">Karaoke</div>
+  </div>
+  <div class="page">
+    <div class="text text--spinning" data-scroll="out" data-splitting="">Spinning</div>
+  </div>
+  <div class="page">
+    <div class="text text--filling" data-scroll="out" data-splitting="">Filling</div>
+  </div>
+  <div class="page">
+    <div class="text text--blocks" data-scroll="out" data-splitting="">Blocks</div>
+  </div>
+  <div class="page">
+    <div class="text text--scaling" data-scroll="out" data-splitting="">Scaling</div>
+  </div>
+  <div class="page">
+    <div class="text text--turning" data-scroll="out" data-splitting="">Turning</div>
+  </div>
+  <div class="page">
+    <div class="text text--folding" data-scroll="out" data-splitting="">Folding</div>
+  </div>
+  <div class="page">
+    <div class="text text--bulge" data-scroll="out" data-splitting="">Bulge</div>
+  </div>
+  <div class="page">
+    <div class="text text--tumbling" data-scroll="out" data-splitting="">Tumbling</div>
+  </div>
+  <div class="page">
+    <div class="text text--rolling" data-scroll="out" data-splitting="">Rolling</div>
+  </div>
+  <div class="page">
+    <div class="text text--perspective" data-scroll="out" data-splitting="">Perspective</div>
+  </div>
+  <div class="page">
+    <div class="text text--zipping" data-scroll="out" data-splitting="">Zipping</div>
+  </div>
+  <div class="page">
+    <div class="text text--swinging" data-scroll="out" data-splitting="">Swinging</div>
+  </div>
+  <div class="page">
+    <div class="text text--bubbling" data-scroll="out" data-splitting="">Bubbling</div>
+  </div>
+  <div class="page">
+    <div class="text text--blowing" data-scroll="out" data-splitting="">Blowing</div>
+  </div>
+  <div class="page">
+    <div class="text text--meeting" data-scroll="out" data-splitting="">Meeting</div>
+  </div>
+  <div class="page">
+    <div class="text text--conveyor" data-scroll="out" data-splitting="">Conveyor</div>
+  </div>
+</div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="assets/js/mouse.js" defer></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/slider.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script>
+      Splitting();
+ScrollOut({
+  targets: '.word',
+  scrollingElement: '.container' });
+    </script>
   </body>
 </html>

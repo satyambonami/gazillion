@@ -556,7 +556,7 @@ h1 {
 .w-70{
   width: 70%;
 }
-.splitting .char {
+/* .splitting .char {
   animation: slide-in .7s cubic-bezier(.3, 0, .7, 1) both;
   animation-delay: calc(50ms * var(--char-index));
 }
@@ -567,3 +567,20 @@ h1 {
     transform: scale(0.4) translateY(80%);
     opacity: 0;
   }
+} */
+
+.splitting .char {
+  animation: slide-in .7s cubic-bezier(.3, 0, .7, 1) both;
+  animation-delay: calc(50ms * var(--char-index));
+}
+.splitting[data-scroll=out] .char {
+  opacity: 0.1;
+  transform: translateY(0.25em);
+}
+@keyframes slide-in {
+  from {
+    transform: scale(0.4) translateY(80%);
+    opacity: 0;
+  }
+}
+

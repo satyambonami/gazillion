@@ -19,7 +19,22 @@
     <link rel="stylesheet" href="assets/css/mouse.css">
     <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css">
     <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <style>
+        [data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
 
+    </style>
 </head>
 
 <body>
@@ -116,7 +131,7 @@
                         <div
                             class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 m-md-aut0 d-flex bannerText bg-white" data-cursor="-opaque">
                             <div class="mh-top"   >
-                                <h1 class="" data-splitting>
+                                <h1 class="dataTargetHeading" data-splitting >
                                     Like the Gazillions of stars in the sky, shinning so brightly and uncontested, we
                                     work with you to synergize your ideas to create unique expressions of your
                                 </h1>
@@ -161,7 +176,7 @@
                                 </h1>
                             </div>
                             <h3 class="me-4 me-lg-0">
-                                <span class="fw-bold text-white ">
+                                <span class="fw-bold text-white " data-splitting>
                                     Ideas Synergy <br> & Evolution
                                 </span>
                             </h3>
@@ -536,9 +551,36 @@
     <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <script src="./assets/js/main.js"></script>
+    <!-- <script>
+        const dataTargetHeading = document.querySelector('.dataTargetHeading');
+        Splitting();
+        
+        window.addEventListener("scroll", function (e) {
+  let scroll = this.scrollY;
+  console.log(dataTargetHeading)
+
+
+;
+});
+    </script> -->
     <script>
         Splitting();
-    </script>
+        ScrollOut({
+            targets:'[data-splitting]',
+            onShown: function(el) {
+                el.classList.add('splitting')
+  },
+  onHidden: function(el) {
+    // console.log(el.getAttribute('data-scroll'))
+    el.classList.remove('splitting')
+  }
+
+});
+
+
+
+      </script>
+      
 </body>
 
 </html>

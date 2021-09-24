@@ -123,5 +123,3 @@ play.forEach((item) => {
   
 //   ;
 //   });
-
-Splitting();
