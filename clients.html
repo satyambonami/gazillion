@@ -17,15 +17,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
     <link rel="stylesheet" href="assets/css/mouse.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css">
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
 <body>
-    <div class="contan">
-        <div class="cursor">
-
-        </div>
-    </div>
+    
     <!-- Main Section With Navigation -->
     <section class="mainNavSection clients-bannertext">
         <div class="container-fluid">
@@ -120,9 +121,9 @@
                     <div class="row h-90">
                         <div class="col-12 col-xl-12 col-xxl-4 bannerText ">
                             <div class="mh-top">
-                                <h1 class="fw-bold text-uppercase"> OUR CLIENT <span
+                                <h1 class="fw-bold text-uppercase" data-splitting=""> OUR CLIENT <span
                                         class="fw-bold text-uppercase mainColor padding-mobile"> BASE </span> </h1>
-                                <p class="mt-2 mt-sm-3 mt-md-3 mt-lg-5 mt-xxl-5 mb-5 mobile-width">
+                                <p class="mt-2 mt-sm-3 mt-md-3 mt-lg-5 mt-xxl-5 mb-5 mobile-width" data-aos="fade" data-aos-easing="ease-in-sine"  data-aos-duration="1000">
                                     Our diverse client base spans various industries and multi-disciplines including
                                     Telecommunications, Technology, Agric-tech, EdTech, Real Estates firms, Government
                                     and nonprofits, Hospitality & Tourism, Entertainment, and financial services to
@@ -441,6 +442,32 @@
     <script src="./assets/js/mouse.js"></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/slider.js"></script>
+    
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+   
+    <script>
+        Splitting();
+        ScrollOut({
+            targets:'[data-splitting]',
+            onShown: function(el) {
+                el.classList.add('splitting')
+  },
+  onHidden: function(el) {
+    // console.log(el.getAttribute('data-scroll'))
+    el.classList.remove('splitting')
+  }
+
+});
+
+
+
+      </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      
 
     <script>
         // $('.variable-width').slick({
